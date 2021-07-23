@@ -1,0 +1,2408 @@
+
+AVRASM ver. 2.2.7  C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm Wed Jul 21 17:39:48 2021
+
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc\tn2313adef.inc'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(11): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc\tn2313adef.inc'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(12): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\config.inc'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(13): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\vars.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(23): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\interrupts_vector.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(24): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\interrupts.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(25): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\initialization.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(42): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\lib.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(43): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\twi_mp.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(45): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\delay.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(47): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_0.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(48): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_1.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(49): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_2.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(50): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_3.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(51): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_4.asm'
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc\tn2313adef.inc'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(11): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc\tn2313adef.inc'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(12): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\config.inc'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(13): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\vars.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(23): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\interrupts_vector.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(24): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\interrupts.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(25): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\initialization.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(42): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\lib.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(43): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\twi_mp.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(45): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\delay.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(47): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_0.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(48): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_1.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(49): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_2.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(50): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_3.asm'
+C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\main.asm(51): Including file 'C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave2\attiny2313_twi_slave\led_4.asm'
+                                 
+                                 ;
+                                 
+                                 ;***** Created: 2011-02-09 12:04 ******* Source: ATtiny2313A.xml *********
+                                 ;*************************************************************************
+                                 ;* A P P L I C A T I O N   N O T E   F O R   T H E   A V R   F A M I L Y
+                                 ;* 
+                                 ;* Number            : AVR000
+                                 ;* File Name         : "tn2313Adef.inc"
+                                 ;* Title             : Register/Bit Definitions for the ATtiny2313A
+                                 ;* Date              : 2011-02-09
+                                 ;* Version           : 2.35
+                                 ;* Support E-mail    : avr@atmel.com
+                                 ;* Target MCU        : ATtiny2313A
+                                 ;* 
+                                 ;* DESCRIPTION
+                                 ;* When including this file in the assembly program file, all I/O register 
+                                 ;* names and I/O register bit names appearing in the data book can be used.
+                                 ;* In addition, the six registers forming the three data pointers X, Y and 
+                                 ;* Z have been assigned names XL - ZH. Highest RAM address for Internal 
+                                 ;* SRAM is also defined 
+                                 ;* 
+                                 ;* The Register names are represented by their hexadecimal address.
+                                 ;* 
+                                 ;* The Register Bit names are represented by their bit number (0-7).
+                                 ;* 
+                                 ;* Please observe the difference in using the bit names with instructions
+                                 ;* such as "sbr"/"cbr" (set/clear bit in register) and "sbrs"/"sbrc"
+                                 ;* (skip if bit in register set/cleared). The following example illustrates
+                                 ;* this:
+                                 ;* 
+                                 ;* in    r16,PORTB             ;read PORTB latch
+                                 ;* sbr   r16,(1<<PB6)+(1<<PB5) ;set PB6 and PB5 (use masks, not bit#)
+                                 ;* out   PORTB,r16             ;output to PORTB
+                                 ;* 
+                                 ;* in    r16,TIFR              ;read the Timer Interrupt Flag Register
+                                 ;* sbrc  r16,TOV0              ;test the overflow flag (use bit#)
+                                 ;* rjmp  TOV0_is_set           ;jump if set
+                                 ;* ...                         ;otherwise do something else
+                                 ;*************************************************************************
+                                 
+                                 #ifndef _TN2313ADEF_INC_
+                                 #define _TN2313ADEF_INC_
+                                 
+                                 
+                                 #pragma partinc 0
+                                 
+                                 ; ***** SPECIFY DEVICE ***************************************************
+                                 .device ATtiny2313A
+                                 #pragma AVRPART ADMIN PART_NAME ATtiny2313A
+                                 .equ	SIGNATURE_000	= 0x1e
+                                 .equ	SIGNATURE_001	= 0x91
+                                 .equ	SIGNATURE_002	= 0x0a
+                                 
+                                 #pragma AVRPART CORE CORE_VERSION V2
+                                 #pragma AVRPART CORE NEW_INSTRUCTIONS lpm rd,z+
+                                 
+                                 
+                                 ; ***** I/O REGISTER DEFINITIONS *****************************************
+                                 ; NOTE:
+                                 ; Definitions marked "MEMORY MAPPED"are extended I/O ports
+                                 ; and cannot be used with IN/OUT instructions
+                                 .equ	SREG	= 0x3f
+                                 .equ	SPL	= 0x3d
+                                 .equ	OCR0B	= 0x3c
+                                 .equ	GIMSK	= 0x3b
+                                 .equ	EIFR	= 0x3a
+                                 .equ	TIMSK	= 0x39
+                                 .equ	TIFR	= 0x38
+                                 .equ	SPMCSR	= 0x37
+                                 .equ	OCR0A	= 0x36
+                                 .equ	MCUCR	= 0x35
+                                 .equ	MCUSR	= 0x34
+                                 .equ	TCCR0B	= 0x33
+                                 .equ	TCNT0	= 0x32
+                                 .equ	OSCCAL	= 0x31
+                                 .equ	TCCR0A	= 0x30
+                                 .equ	TCCR1A	= 0x2f
+                                 .equ	TCCR1B	= 0x2e
+                                 .equ	TCNT1L	= 0x2c
+                                 .equ	TCNT1H	= 0x2d
+                                 .equ	OCR1AL	= 0x2a
+                                 .equ	OCR1AH	= 0x2b
+                                 .equ	OCR1BL	= 0x28
+                                 .equ	OCR1BH	= 0x29
+                                 .equ	CLKPR	= 0x26
+                                 .equ	ICR1L	= 0x24
+                                 .equ	ICR1H	= 0x25
+                                 .equ	GTCCR	= 0x23
+                                 .equ	TCCR1C	= 0x22
+                                 .equ	WDTCR	= 0x21
+                                 .equ	PCMSK0	= 0x20
+                                 .equ	EEAR	= 0x1e
+                                 .equ	EEDR	= 0x1d
+                                 .equ	EECR	= 0x1c
+                                 .equ	PORTA	= 0x1b
+                                 .equ	DDRA	= 0x1a
+                                 .equ	PINA	= 0x19
+                                 .equ	PORTB	= 0x18
+                                 .equ	DDRB	= 0x17
+                                 .equ	PINB	= 0x16
+                                 .equ	GPIOR2	= 0x15
+                                 .equ	GPIOR1	= 0x14
+                                 .equ	GPIOR0	= 0x13
+                                 .equ	PORTD	= 0x12
+                                 .equ	DDRD	= 0x11
+                                 .equ	PIND	= 0x10
+                                 .equ	USIDR	= 0x0f
+                                 .equ	USISR	= 0x0e
+                                 .equ	USICR	= 0x0d
+                                 .equ	UDR	= 0x0c
+                                 .equ	UCSRA	= 0x0b
+                                 .equ	UCSRB	= 0x0a
+                                 .equ	UBRRL	= 0x09
+                                 .equ	ACSR	= 0x08
+                                 .equ	BODCR	= 0x07
+                                 .equ	PRR	= 0x06
+                                 .equ	PCMSK2	= 0x05
+                                 .equ	PCMSK1	= 0x04
+                                 .equ	UCSRC	= 0x03
+                                 .equ	UBRRH	= 0x02
+                                 .equ	DIDR	= 0x01
+                                 
+                                 
+                                 ; ***** BIT DEFINITIONS **************************************************
+                                 
+                                 ; ***** PORTB ************************
+                                 ; PORTB - Port B Data Register
+                                 .equ	PORTB0	= 0	; Port B Data Register bit 0
+                                 .equ	PB0	= 0	; For compatibility
+                                 .equ	PORTB1	= 1	; Port B Data Register bit 1
+                                 .equ	PB1	= 1	; For compatibility
+                                 .equ	PORTB2	= 2	; Port B Data Register bit 2
+                                 .equ	PB2	= 2	; For compatibility
+                                 .equ	PORTB3	= 3	; Port B Data Register bit 3
+                                 .equ	PB3	= 3	; For compatibility
+                                 .equ	PORTB4	= 4	; Port B Data Register bit 4
+                                 .equ	PB4	= 4	; For compatibility
+                                 .equ	PORTB5	= 5	; Port B Data Register bit 5
+                                 .equ	PB5	= 5	; For compatibility
+                                 .equ	PORTB6	= 6	; Port B Data Register bit 6
+                                 .equ	PB6	= 6	; For compatibility
+                                 .equ	PORTB7	= 7	; Port B Data Register bit 7
+                                 .equ	PB7	= 7	; For compatibility
+                                 
+                                 ; DDRB - Port B Data Direction Register
+                                 .equ	DDB0	= 0	; Port B Data Direction Register bit 0
+                                 .equ	DDB1	= 1	; Port B Data Direction Register bit 1
+                                 .equ	DDB2	= 2	; Port B Data Direction Register bit 2
+                                 .equ	DDB3	= 3	; Port B Data Direction Register bit 3
+                                 .equ	DDB4	= 4	; Port B Data Direction Register bit 4
+                                 .equ	DDB5	= 5	; Port B Data Direction Register bit 5
+                                 .equ	DDB6	= 6	; Port B Data Direction Register bit 6
+                                 .equ	DDB7	= 7	; Port B Data Direction Register bit 7
+                                 
+                                 ; PINB - Port B Input Pins
+                                 .equ	PINB0	= 0	; Port B Input Pins bit 0
+                                 .equ	PINB1	= 1	; Port B Input Pins bit 1
+                                 .equ	PINB2	= 2	; Port B Input Pins bit 2
+                                 .equ	PINB3	= 3	; Port B Input Pins bit 3
+                                 .equ	PINB4	= 4	; Port B Input Pins bit 4
+                                 .equ	PINB5	= 5	; Port B Input Pins bit 5
+                                 .equ	PINB6	= 6	; Port B Input Pins bit 6
+                                 .equ	PINB7	= 7	; Port B Input Pins bit 7
+                                 
+                                 
+                                 ; ***** TIMER_COUNTER_0 **************
+                                 ; TIMSK - Timer/Counter Interrupt Mask Register
+                                 .equ	OCIE0A	= 0	; Timer/Counter0 Output Compare Match A Interrupt Enable
+                                 .equ	TOIE0	= 1	; Timer/Counter0 Overflow Interrupt Enable
+                                 .equ	OCIE0B	= 2	; Timer/Counter0 Output Compare Match B Interrupt Enable
+                                 
+                                 ; TIFR - Timer/Counter Interrupt Flag register
+                                 .equ	OCF0A	= 0	; Timer/Counter0 Output Compare Flag 0A
+                                 .equ	TOV0	= 1	; Timer/Counter0 Overflow Flag
+                                 .equ	OCF0B	= 2	; Timer/Counter0 Output Compare Flag 0B
+                                 
+                                 ; OCR0B - Timer/Counter0 Output Compare Register
+                                 .equ	OCR0_0	= 0	; 
+                                 .equ	OCR0_1	= 1	; 
+                                 .equ	OCR0_2	= 2	; 
+                                 .equ	OCR0_3	= 3	; 
+                                 .equ	OCR0_4	= 4	; 
+                                 .equ	OCR0_5	= 5	; 
+                                 .equ	OCR0_6	= 6	; 
+                                 .equ	OCR0_7	= 7	; 
+                                 
+                                 ; OCR0A - Timer/Counter0 Output Compare Register
+                                 .equ	OCR0A_0	= 0	; 
+                                 .equ	OCR0A_1	= 1	; 
+                                 .equ	OCR0A_2	= 2	; 
+                                 .equ	OCR0A_3	= 3	; 
+                                 .equ	OCR0A_4	= 4	; 
+                                 .equ	OCR0A_5	= 5	; 
+                                 .equ	OCR0A_6	= 6	; 
+                                 .equ	OCR0A_7	= 7	; 
+                                 
+                                 ; TCCR0A - Timer/Counter  Control Register A
+                                 .equ	WGM00	= 0	; Waveform Generation Mode
+                                 .equ	WGM01	= 1	; Waveform Generation Mode
+                                 .equ	COM0B0	= 4	; Compare Match Output B Mode
+                                 .equ	COM0B1	= 5	; Compare Match Output B Mode
+                                 .equ	COM0A0	= 6	; Compare Match Output A Mode
+                                 .equ	COM0A1	= 7	; Compare Match Output A Mode
+                                 
+                                 ; TCNT0 - Timer/Counter0
+                                 .equ	TCNT0_0	= 0	; 
+                                 .equ	TCNT0_1	= 1	; 
+                                 .equ	TCNT0_2	= 2	; 
+                                 .equ	TCNT0_3	= 3	; 
+                                 .equ	TCNT0_4	= 4	; 
+                                 .equ	TCNT0_5	= 5	; 
+                                 .equ	TCNT0_6	= 6	; 
+                                 .equ	TCNT0_7	= 7	; 
+                                 
+                                 ; TCCR0B - Timer/Counter Control Register B
+                                 .equ	TCCR0	= TCCR0B	; For compatibility
+                                 .equ	CS00	= 0	; Clock Select
+                                 .equ	CS01	= 1	; Clock Select
+                                 .equ	CS02	= 2	; Clock Select
+                                 .equ	WGM02	= 3	; 
+                                 .equ	FOC0B	= 6	; Force Output Compare B
+                                 .equ	FOC0A	= 7	; Force Output Compare B
+                                 
+                                 
+                                 ; ***** TIMER_COUNTER_1 **************
+                                 ; TIMSK - Timer/Counter Interrupt Mask Register
+                                 .equ	ICIE1	= 3	; Timer/Counter1 Input Capture Interrupt Enable
+                                 .equ	TICIE	= ICIE1	; For compatibility
+                                 .equ	OCIE1B	= 5	; Timer/Counter1 Output CompareB Match Interrupt Enable
+                                 .equ	OCIE1A	= 6	; Timer/Counter1 Output CompareA Match Interrupt Enable
+                                 .equ	TOIE1	= 7	; Timer/Counter1 Overflow Interrupt Enable
+                                 
+                                 ; TIFR - Timer/Counter Interrupt Flag register
+                                 .equ	ICF1	= 3	; Input Capture Flag 1
+                                 .equ	OCF1B	= 5	; Output Compare Flag 1B
+                                 .equ	OCF1A	= 6	; Output Compare Flag 1A
+                                 .equ	TOV1	= 7	; Timer/Counter1 Overflow Flag
+                                 
+                                 ; TCCR1A - Timer/Counter1 Control Register A
+                                 .equ	WGM10	= 0	; Pulse Width Modulator Select Bit 0
+                                 .equ	PWM10	= WGM10	; For compatibility
+                                 .equ	WGM11	= 1	; Pulse Width Modulator Select Bit 1
+                                 .equ	PWM11	= WGM11	; For compatibility
+                                 .equ	COM1B0	= 4	; Comparet Ouput Mode 1B, bit 0
+                                 .equ	COM1B1	= 5	; Compare Output Mode 1B, bit 1
+                                 .equ	COM1A0	= 6	; Comparet Ouput Mode 1A, bit 0
+                                 .equ	COM1A1	= 7	; Compare Output Mode 1A, bit 1
+                                 
+                                 ; TCCR1B - Timer/Counter1 Control Register B
+                                 .equ	CS10	= 0	; Clock Select bit 0
+                                 .equ	CS11	= 1	; Clock Select 1 bit 1
+                                 .equ	CS12	= 2	; Clock Select1 bit 2
+                                 .equ	WGM12	= 3	; Waveform Generation Mode Bit 2
+                                 .equ	CTC1	= WGM12	; For compatibility
+                                 .equ	WGM13	= 4	; Waveform Generation Mode Bit 3
+                                 .equ	ICES1	= 6	; Input Capture 1 Edge Select
+                                 .equ	ICNC1	= 7	; Input Capture 1 Noise Canceler
+                                 
+                                 ; TCCR1C - Timer/Counter1 Control Register C
+                                 .equ	FOC1B	= 6	; Force Output Compare for Channel B
+                                 .equ	FOC1A	= 7	; Force Output Compare for Channel A
+                                 
+                                 
+                                 ; ***** WATCHDOG *********************
+                                 ; WDTCR - Watchdog Timer Control Register
+                                 .equ	WDTCSR	= WDTCR	; For compatibility
+                                 .equ	WDP0	= 0	; Watch Dog Timer Prescaler bit 0
+                                 .equ	WDP1	= 1	; Watch Dog Timer Prescaler bit 1
+                                 .equ	WDP2	= 2	; Watch Dog Timer Prescaler bit 2
+                                 .equ	WDE	= 3	; Watch Dog Enable
+                                 .equ	WDCE	= 4	; Watchdog Change Enable
+                                 .equ	WDTOE	= WDCE	; For compatibility
+                                 .equ	WDP3	= 5	; Watchdog Timer Prescaler Bit 3
+                                 .equ	WDIE	= 6	; Watchdog Timeout Interrupt Enable
+                                 .equ	WDIF	= 7	; Watchdog Timeout Interrupt Flag
+                                 
+                                 
+                                 ; ***** USART ************************
+                                 ; UDR - USART I/O Data Register
+                                 .equ	UDR0	= 0	; USART I/O Data Register bit 0
+                                 .equ	UDR1	= 1	; USART I/O Data Register bit 1
+                                 .equ	UDR2	= 2	; USART I/O Data Register bit 2
+                                 .equ	UDR3	= 3	; USART I/O Data Register bit 3
+                                 .equ	UDR4	= 4	; USART I/O Data Register bit 4
+                                 .equ	UDR5	= 5	; USART I/O Data Register bit 5
+                                 .equ	UDR6	= 6	; USART I/O Data Register bit 6
+                                 .equ	UDR7	= 7	; USART I/O Data Register bit 7
+                                 
+                                 ; UCSRA - USART Control and Status Register A
+                                 .equ	USR	= UCSRA	; For compatibility
+                                 .equ	MPCM	= 0	; Multi-processor Communication Mode
+                                 .equ	U2X	= 1	; Double the USART Transmission Speed
+                                 .equ	UPE	= 2	; USART Parity Error
+                                 .equ	PE	= UPE	; For compatibility
+                                 .equ	DOR	= 3	; Data overRun
+                                 .equ	FE	= 4	; Framing Error
+                                 .equ	UDRE	= 5	; USART Data Register Empty
+                                 .equ	TXC	= 6	; USART Transmitt Complete
+                                 .equ	RXC	= 7	; USART Receive Complete
+                                 
+                                 ; UCSRB - USART Control and Status Register B
+                                 .equ	UCR	= UCSRB	; For compatibility
+                                 .equ	TXB8	= 0	; Transmit Data Bit 8
+                                 .equ	RXB8	= 1	; Receive Data Bit 8
+                                 .equ	UCSZ2	= 2	; Character Size
+                                 .equ	CHR9	= UCSZ2	; For compatibility
+                                 .equ	TXEN	= 3	; Transmitter Enable
+                                 .equ	RXEN	= 4	; Receiver Enable
+                                 .equ	UDRIE	= 5	; USART Data register Empty Interrupt Enable
+                                 .equ	TXCIE	= 6	; TX Complete Interrupt Enable
+                                 .equ	RXCIE	= 7	; RX Complete Interrupt Enable
+                                 
+                                 ; UCSRC - USART Control and Status Register C
+                                 .equ	UCPOL	= 0	; Clock Polarity
+                                 .equ	UCSZ0	= 1	; Character Size Bit 0
+                                 .equ	UCSZ1	= 2	; Character Size Bit 1
+                                 .equ	USBS	= 3	; Stop Bit Select
+                                 .equ	UPM0	= 4	; Parity Mode Bit 0
+                                 .equ	UPM1	= 5	; Parity Mode Bit 1
+                                 .equ	UMSEL0 	= 6	; USART Mode Select 0
+                                 .equ 	UMSEL1 	= 7 ; USART Mode Select 1
+                                 .equ 	UCPHA  	= 1 ; USART MSPIM Clock Phase
+                                 .equ 	UDORD  	= 2 ; USART MSPIM Data Order 
+                                 
+                                 .equ	UBRR	= UBRRL	; For compatibility
+                                 
+                                 ; ***** ANALOG_COMPARATOR ************
+                                 ; ACSR - Analog Comparator Control And Status Register
+                                 .equ	ACIS0	= 0	; Analog Comparator Interrupt Mode Select bit 0
+                                 .equ	ACIS1	= 1	; Analog Comparator Interrupt Mode Select bit 1
+                                 .equ	ACIC	= 2	; 
+                                 .equ	ACIE	= 3	; Analog Comparator Interrupt Enable
+                                 .equ	ACI	= 4	; Analog Comparator Interrupt Flag
+                                 .equ	ACO	= 5	; Analog Compare Output
+                                 .equ	ACBG	= 6	; Analog Comparator Bandgap Select
+                                 .equ	ACD	= 7	; Analog Comparator Disable
+                                 
+                                 ; DIDR - Digital Input Disable Register 1
+                                 .equ	AIN0D	= 0	; AIN0 Digital Input Disable
+                                 .equ	AIN1D	= 1	; AIN1 Digital Input Disable
+                                 
+                                 
+                                 ; ***** PORTD ************************
+                                 ; PORTD - Data Register, Port D
+                                 .equ	PORTD0	= 0	; 
+                                 .equ	PD0	= 0	; For compatibility
+                                 .equ	PORTD1	= 1	; 
+                                 .equ	PD1	= 1	; For compatibility
+                                 .equ	PORTD2	= 2	; 
+                                 .equ	PD2	= 2	; For compatibility
+                                 .equ	PORTD3	= 3	; 
+                                 .equ	PD3	= 3	; For compatibility
+                                 .equ	PORTD4	= 4	; 
+                                 .equ	PD4	= 4	; For compatibility
+                                 .equ	PORTD5	= 5	; 
+                                 .equ	PD5	= 5	; For compatibility
+                                 .equ	PORTD6	= 6	; 
+                                 .equ	PD6	= 6	; For compatibility
+                                 
+                                 ; DDRD - Data Direction Register, Port D
+                                 .equ	DDD0	= 0	; 
+                                 .equ	DDD1	= 1	; 
+                                 .equ	DDD2	= 2	; 
+                                 .equ	DDD3	= 3	; 
+                                 .equ	DDD4	= 4	; 
+                                 .equ	DDD5	= 5	; 
+                                 .equ	DDD6	= 6	; 
+                                 
+                                 ; PIND - Input Pins, Port D
+                                 .equ	PIND0	= 0	; 
+                                 .equ	PIND1	= 1	; 
+                                 .equ	PIND2	= 2	; 
+                                 .equ	PIND3	= 3	; 
+                                 .equ	PIND4	= 4	; 
+                                 .equ	PIND5	= 5	; 
+                                 .equ	PIND6	= 6	; 
+                                 
+                                 
+                                 ; ***** EEPROM ***********************
+                                 ; EEAR - EEPROM Read/Write Access
+                                 .equ	EEARL	= EEAR	; For compatibility
+                                 .equ	EEAR0	= 0	; EEPROM Read/Write Access bit 0
+                                 .equ	EEAR1	= 1	; EEPROM Read/Write Access bit 1
+                                 .equ	EEAR2	= 2	; EEPROM Read/Write Access bit 2
+                                 .equ	EEAR3	= 3	; EEPROM Read/Write Access bit 3
+                                 .equ	EEAR4	= 4	; EEPROM Read/Write Access bit 4
+                                 .equ	EEAR5	= 5	; EEPROM Read/Write Access bit 5
+                                 .equ	EEAR6	= 6	; EEPROM Read/Write Access bit 6
+                                 
+                                 ; EEDR - EEPROM Data Register
+                                 .equ	EEDR0	= 0	; EEPROM Data Register bit 0
+                                 .equ	EEDR1	= 1	; EEPROM Data Register bit 1
+                                 .equ	EEDR2	= 2	; EEPROM Data Register bit 2
+                                 .equ	EEDR3	= 3	; EEPROM Data Register bit 3
+                                 .equ	EEDR4	= 4	; EEPROM Data Register bit 4
+                                 .equ	EEDR5	= 5	; EEPROM Data Register bit 5
+                                 .equ	EEDR6	= 6	; EEPROM Data Register bit 6
+                                 .equ	EEDR7	= 7	; EEPROM Data Register bit 7
+                                 
+                                 ; EECR - EEPROM Control Register
+                                 .equ	EERE	= 0	; EEPROM Read Enable
+                                 .equ	EEPE	= 1	; EEPROM Write Enable
+                                 .equ	EEWE	= EEPE	; For compatibility
+                                 .equ	EEMPE	= 2	; EEPROM Master Write Enable
+                                 .equ	EEMWE	= EEMPE	; For compatibility
+                                 .equ	EERIE	= 3	; EEProm Ready Interrupt Enable
+                                 .equ	EEPM0	= 4	; 
+                                 .equ	EEPM1	= 5	; 
+                                 
+                                 
+                                 ; ***** PORTA ************************
+                                 ; PORTA - Port A Data Register
+                                 .equ	PORTA0	= 0	; Port A Data Register bit 0
+                                 .equ	PA0	= 0	; For compatibility
+                                 .equ	PORTA1	= 1	; Port A Data Register bit 1
+                                 .equ	PA1	= 1	; For compatibility
+                                 .equ	PORTA2	= 2	; Port A Data Register bit 2
+                                 .equ	PA2	= 2	; For compatibility
+                                 
+                                 ; DDRA - Port A Data Direction Register
+                                 .equ	DDA0	= 0	; Data Direction Register, Port A, bit 0
+                                 .equ	DDA1	= 1	; Data Direction Register, Port A, bit 1
+                                 .equ	DDA2	= 2	; Data Direction Register, Port A, bit 2
+                                 
+                                 ; PINA - Port A Input Pins
+                                 .equ	PINA0	= 0	; Input Pins, Port A bit 0
+                                 .equ	PINA1	= 1	; Input Pins, Port A bit 1
+                                 .equ	PINA2	= 2	; Input Pins, Port A bit 2
+                                 
+                                 
+                                 ; ***** USI **************************
+                                 ; USIDR - USI Data Register
+                                 .equ	USIDR0	= 0	; USI Data Register bit 0
+                                 .equ	USIDR1	= 1	; USI Data Register bit 1
+                                 .equ	USIDR2	= 2	; USI Data Register bit 2
+                                 .equ	USIDR3	= 3	; USI Data Register bit 3
+                                 .equ	USIDR4	= 4	; USI Data Register bit 4
+                                 .equ	USIDR5	= 5	; USI Data Register bit 5
+                                 .equ	USIDR6	= 6	; USI Data Register bit 6
+                                 .equ	USIDR7	= 7	; USI Data Register bit 7
+                                 
+                                 ; USISR - USI Status Register
+                                 .equ	USICNT0	= 0	; USI Counter Value Bit 0
+                                 .equ	USICNT1	= 1	; USI Counter Value Bit 1
+                                 .equ	USICNT2	= 2	; USI Counter Value Bit 2
+                                 .equ	USICNT3	= 3	; USI Counter Value Bit 3
+                                 .equ	USIDC	= 4	; Data Output Collision
+                                 .equ	USIPF	= 5	; Stop Condition Flag
+                                 .equ	USIOIF	= 6	; Counter Overflow Interrupt Flag
+                                 .equ	USISIF	= 7	; Start Condition Interrupt Flag
+                                 
+                                 ; USICR - USI Control Register
+                                 .equ	USITC	= 0	; Toggle Clock Port Pin
+                                 .equ	USICLK	= 1	; Clock Strobe
+                                 .equ	USICS0	= 2	; USI Clock Source Select Bit 0
+                                 .equ	USICS1	= 3	; USI Clock Source Select Bit 1
+                                 .equ	USIWM0	= 4	; USI Wire Mode Bit 0
+                                 .equ	USIWM1	= 5	; USI Wire Mode Bit 1
+                                 .equ	USIOIE	= 6	; Counter Overflow Interrupt Enable
+                                 .equ	USISIE	= 7	; Start Condition Interrupt Enable
+                                 
+                                 
+                                 ; ***** EXTERNAL_INTERRUPT ***********
+                                 ; GIMSK - General Interrupt Mask Register
+                                 .equ  PCIE1 = 3 ;
+                                 .equ  PCIE2 = 4 ;
+                                 .equ	PCIE0	= 5	; 
+                                 .equ	INT0	= 6	; External Interrupt Request 0 Enable
+                                 .equ	INT1	= 7	; External Interrupt Request 1 Enable
+                                 
+                                 ; EIFR - Extended Interrupt Flag Register
+                                 .equ	GIFR	= EIFR	; For compatibility
+                                 .equ	PCIF0	= 5	; 
+                                 .equ  PCIF2	= 4   ;
+                                 .equ  PCIF1   = 3   ;
+                                 .equ	INTF0	= 6	; External Interrupt Flag 0
+                                 .equ	INTF1	= 7	; External Interrupt Flag 1
+                                 
+                                 ; PCMSK2 - Pin Change Interrupt Mask Register 2
+                                 .equ	PCINT11	= 0	; Pin Change Interrupt Mask 11
+                                 .equ	PCINT12	= 1	; Pin Change Interrupt Mask 12
+                                 .equ	PCINT13	= 2	; Pin Change Interrupt Mask 13
+                                 .equ	PCINT14	= 3	; Pin Change Interrupt Mask 14
+                                 .equ	PCINT15	= 4	; Pin Change Interrupt Mask 15
+                                 .equ	PCINT16	= 5	; Pin Change Interrupt Mask 16
+                                 .equ	PCINT17	= 6	; Pin Change Interrupt Mask 17
+                                 
+                                 ; PCMSK1 - Pin Change Interrupt Mask Register 1
+                                 .equ	PCINT8	= 0	; Pin Change Interrupt Mask 8
+                                 .equ	PCINT9	= 1	; Pin Change Interrupt Mask 9
+                                 .equ	PCINT10	= 2	; Pin Change Interrupt Mask 10
+                                 
+                                 
+                                 ; ***** CPU **************************
+                                 ; SREG - Status Register
+                                 .equ	SREG_C	= 0	; Carry Flag
+                                 .equ	SREG_Z	= 1	; Zero Flag
+                                 .equ	SREG_N	= 2	; Negative Flag
+                                 .equ	SREG_V	= 3	; Two's Complement Overflow Flag
+                                 .equ	SREG_S	= 4	; Sign Bit
+                                 .equ	SREG_H	= 5	; Half Carry Flag
+                                 .equ	SREG_T	= 6	; Bit Copy Storage
+                                 .equ	SREG_I	= 7	; Global Interrupt Enable
+                                 
+                                 ; SPMCSR - Store Program Memory Control and Status register
+                                 .equ	SPMEN	= 0	; Store Program Memory Enable
+                                 .equ	PGERS	= 1	; Page Erase
+                                 .equ	PGWRT	= 2	; Page Write
+                                 .equ	RFLB	= 3	; Read Fuse and Lock Bits
+                                 .equ	CTPB	= 4	; Clear Temporary Page Buffer
+                                 
+                                 ; MCUCR - MCU Control Register
+                                 .equ	ISC00	= 0	; Interrupt Sense Control 0 bit 0
+                                 .equ	ISC01	= 1	; Interrupt Sense Control 0 bit 1
+                                 .equ	ISC10	= 2	; Interrupt Sense Control 1 bit 0
+                                 .equ	ISC11	= 3	; Interrupt Sense Control 1 bit 1
+                                 .equ	SM0	= 4	; Sleep Mode Select Bit 0
+                                 .equ	SM	= SM0	; For compatibility
+                                 .equ	SE	= 5	; Sleep Enable
+                                 .equ	SM1	= 6	; Sleep Mode Select Bit 1
+                                 .equ	PUD	= 7	; Pull-up Disable
+                                 
+                                 ; CLKPR - Clock Prescale Register
+                                 .equ	CLKPS0	= 0	; Clock Prescaler Select Bit 0
+                                 .equ	CLKPS1	= 1	; Clock Prescaler Select Bit 1
+                                 .equ	CLKPS2	= 2	; Clock Prescaler Select Bit 2
+                                 .equ	CLKPS3	= 3	; Clock Prescaler Select Bit 3
+                                 .equ	CLKPCE	= 7	; Clock Prescaler Change Enable
+                                 
+                                 ; MCUSR - MCU Status register
+                                 .equ	PORF	= 0	; Power-On Reset Flag
+                                 .equ	EXTRF	= 1	; External Reset Flag
+                                 .equ	BORF	= 2	; Brown-out Reset Flag
+                                 .equ	WDRF	= 3	; Watchdog Reset Flag
+                                 
+                                 ; OSCCAL - Oscillator Calibration Register
+                                 .equ	CAL0	= 0	; Oscillatro Calibration Value Bit 0
+                                 .equ	CAL1	= 1	; Oscillatro Calibration Value Bit 1
+                                 .equ	CAL2	= 2	; Oscillatro Calibration Value Bit 2
+                                 .equ	CAL3	= 3	; Oscillatro Calibration Value Bit 3
+                                 .equ	CAL4	= 4	; Oscillatro Calibration Value Bit 4
+                                 .equ	CAL5	= 5	; Oscillatro Calibration Value Bit 5
+                                 .equ	CAL6	= 6	; Oscillatro Calibration Value Bit 6
+                                 
+                                 ; GTCCR - General Timer Counter Control Register
+                                 .equ	SFIOR	= GTCCR	; For compatibility
+                                 .equ	PSR10	= 0	; 
+                                 
+                                 ; PCMSK - Pin-Change Mask register
+                                 .equ	PCINT0	= 0	; Pin-Change Interrupt 0
+                                 .equ	PCINT1	= 1	; Pin-Change Interrupt 1
+                                 .equ	PCINT2	= 2	; Pin-Change Interrupt 2
+                                 .equ	PCINT3	= 3	; Pin-Change Interrupt 3
+                                 .equ	PCINT4	= 4	; Pin-Change Interrupt 4
+                                 .equ	PCINT5	= 5	; Pin-Change Interrupt 5
+                                 .equ	PCINT6	= 6	; Pin-Change Interrupt 6
+                                 .equ	PCINT7	= 7	; Pin-Change Interrupt 7
+                                 
+                                 ; GPIOR2 - General Purpose I/O Register 2
+                                 .equ	GPIOR20	= 0	; General Purpose I/O Register 2 bit 0
+                                 .equ	GPIOR21	= 1	; General Purpose I/O Register 2 bit 1
+                                 .equ	GPIOR22	= 2	; General Purpose I/O Register 2 bit 2
+                                 .equ	GPIOR23	= 3	; General Purpose I/O Register 2 bit 3
+                                 .equ	GPIOR24	= 4	; General Purpose I/O Register 2 bit 4
+                                 .equ	GPIOR25	= 5	; General Purpose I/O Register 2 bit 5
+                                 .equ	GPIOR26	= 6	; General Purpose I/O Register 2 bit 6
+                                 .equ	GPIOR27	= 7	; General Purpose I/O Register 2 bit 7
+                                 
+                                 ; GPIOR1 - General Purpose I/O Register 1
+                                 .equ	GPIOR10	= 0	; General Purpose I/O Register 1 bit 0
+                                 .equ	GPIOR11	= 1	; General Purpose I/O Register 1 bit 1
+                                 .equ	GPIOR12	= 2	; General Purpose I/O Register 1 bit 2
+                                 .equ	GPIOR13	= 3	; General Purpose I/O Register 1 bit 3
+                                 .equ	GPIOR14	= 4	; General Purpose I/O Register 1 bit 4
+                                 .equ	GPIOR15	= 5	; General Purpose I/O Register 1 bit 5
+                                 .equ	GPIOR16	= 6	; General Purpose I/O Register 1 bit 6
+                                 .equ	GPIOR17	= 7	; General Purpose I/O Register 1 bit 7
+                                 
+                                 ; GPIOR0 - General Purpose I/O Register 0
+                                 .equ	GPIOR00	= 0	; General Purpose I/O Register 0 bit 0
+                                 .equ	GPIOR01	= 1	; General Purpose I/O Register 0 bit 1
+                                 .equ	GPIOR02	= 2	; General Purpose I/O Register 0 bit 2
+                                 .equ	GPIOR03	= 3	; General Purpose I/O Register 0 bit 3
+                                 .equ	GPIOR04	= 4	; General Purpose I/O Register 0 bit 4
+                                 .equ	GPIOR05	= 5	; General Purpose I/O Register 0 bit 5
+                                 .equ	GPIOR06	= 6	; General Purpose I/O Register 0 bit 6
+                                 .equ	GPIOR07	= 7	; General Purpose I/O Register 0 bit 7
+                                 
+                                 ; PRR - Power reduction register
+                                 .equ	PRUSART	= 0	; 
+                                 .equ	PRUSI	= 1	; 
+                                 .equ	PRTIM0	= 2	; 
+                                 .equ	PRTIM1	= 3	; 
+                                 
+                                 ; BODCR - BOD control register
+                                 .equ	BPDSE	= 0	; 
+                                 .equ	BPDS	= 1	; 
+                                 
+                                 
+                                 
+                                 ; ***** LOCKSBITS ********************************************************
+                                 .equ	LB1	= 0	; Lockbit
+                                 .equ	LB2	= 1	; Lockbit
+                                 
+                                 
+                                 ; ***** FUSES ************************************************************
+                                 ; LOW fuse bits
+                                 .equ	CKSEL0	= 0	; Select Clock Source
+                                 .equ	CKSEL1	= 1	; Select Clock Source
+                                 .equ	CKSEL2	= 2	; Select Clock Source
+                                 .equ	CKSEL3	= 3	; Select Clock Source
+                                 .equ	SUT0	= 4	; Select start-up time
+                                 .equ	SUT1	= 5	; Select start-up time
+                                 .equ	CKOUT	= 6	; Clock output
+                                 .equ	CKDIV8	= 7	; Divide clock by 8
+                                 
+                                 ; HIGH fuse bits
+                                 .equ	BODLEVEL0	= 0	; Brown-out Detector trigger level
+                                 .equ	BODLEVEL1	= 1	; Brown-out Detector trigger level
+                                 .equ	BODLEVEL2	= 2	; Brown-out Detector trigger level
+                                 .equ	EESAVE	= 3	; EEPROM memory is preserved through chip erase
+                                 .equ	WDTON	= 4	; Watchdog Timer Always On
+                                 .equ	SPIEN	= 5	; Enable Serial programming and Data Downloading
+                                 .equ	DWEN	= 6	; debugWIRE Enable
+                                 .equ	RSTDISBL	= 7	; External reset disable
+                                 
+                                 ; EXTENDED fuse bits
+                                 .equ	SELFPRGEN	= 0	; Self Programming Enable
+                                 
+                                 
+                                 
+                                 ; ***** CPU REGISTER DEFINITIONS *****************************************
+                                 .def	XH	= r27
+                                 .def	XL	= r26
+                                 .def	YH	= r29
+                                 .def	YL	= r28
+                                 .def	ZH	= r31
+                                 .def	ZL	= r30
+                                 
+                                 
+                                 
+                                 ; ***** DATA MEMORY DECLARATIONS *****************************************
+                                 .equ	FLASHEND	= 0x03ff	; Note: Word address
+                                 .equ	IOEND	= 0x003f
+                                 .equ	SRAM_START	= 0x0060
+                                 .equ	SRAM_SIZE	= 128
+                                 .equ	RAMEND	= 0x00df
+                                 .equ	XRAMEND	= 0x0000
+                                 .equ	E2END	= 0x007f
+                                 .equ	EEPROMEND	= 0x007f
+                                 .equ	EEADRBITS	= 7
+                                 #pragma AVRPART MEMORY PROG_FLASH 2048
+                                 #pragma AVRPART MEMORY EEPROM 128
+                                 #pragma AVRPART MEMORY INT_SRAM SIZE 128
+                                 #pragma AVRPART MEMORY INT_SRAM START_ADDR 0x60
+                                 
+                                 
+                                 
+                                 ; ***** BOOTLOADER DECLARATIONS ******************************************
+                                 .equ	NRWW_START_ADDR	= 0x0
+                                 .equ	NRWW_STOP_ADDR	= 0x3ff
+                                 .equ	RWW_START_ADDR	= 0x0
+                                 .equ	RWW_STOP_ADDR	= 0x0
+                                 .equ	PAGESIZE	= 16
+                                 
+                                 
+                                 
+                                 ; ***** INTERRUPT VECTORS ************************************************
+                                 .equ	INT0addr	= 0x0001	; External Interrupt Request 0
+                                 .equ	INT1addr	= 0x0002	; External Interrupt Request 1
+                                 .equ	ICP1addr	= 0x0003	; Timer/Counter1 Capture Event
+                                 .equ	OC1Aaddr	= 0x0004	; Timer/Counter1 Compare Match A
+                                 .equ	OC1addr	= 0x0004	; For compatibility
+                                 .equ	OVF1addr	= 0x0005	; Timer/Counter1 Overflow
+                                 .equ	OVF0addr	= 0x0006	; Timer/Counter0 Overflow
+                                 .equ	URXCaddr	= 0x0007	; USART, Rx Complete
+                                 .equ	URXC0addr	= 0x0007	; For compatibility
+                                 .equ	UDREaddr	= 0x0008	; USART Data Register Empty
+                                 .equ	UDRE0addr	= 0x0008	; For compatibility
+                                 .equ	UTXCaddr	= 0x0009	; USART, Tx Complete
+                                 .equ	UTXC0addr	= 0x0009	; For compatibility
+                                 .equ	ACIaddr	= 0x000a	; Analog Comparator
+                                 .equ	PCIBaddr	= 0x000b	; Pin Change Interrupt Request B
+                                 .equ	PCIaddr	= 0x000b	; For compatibility
+                                 .equ	OC1Baddr	= 0x000c	; 
+                                 .equ	OC0Aaddr	= 0x000d	; 
+                                 .equ	OC0Baddr	= 0x000e	; 
+                                 .equ	USI_STARTaddr	= 0x000f	; USI Start Condition
+                                 .equ	USI_OVFaddr	= 0x0010	; USI Overflow
+                                 .equ	ERDYaddr	= 0x0011	; 
+                                 .equ	WDTaddr	= 0x0012	; Watchdog Timer Overflow
+                                 .equ	PCIAaddr	= 0x0013	; Pin Change Interrupt Request A
+                                 .equ	PCIDaddr	= 0x0014	; Pin Change Interrupt Request D
+                                 
+                                 .equ	INT_VECTORS_SIZE	= 21	; size in words
+                                 
+                                 #endif  /* _TN2313ADEF_INC_ */
+                                 
+                                 ; ***** END OF FILE ******************************************************
+                                 
+                                 ; attiny2313_tm1637.asm
+                                 ;
+                                 ; Created: 30.06.2020 14:09:01
+                                 ; Author : verbkinm
+                                 ;
+                                 ; Описание:	
+                                 ;	Отображение времени и даты на 4-х елементном дисплее с чипом TM1637, модуль времени ds1302. 		
+                                 ;	Управление тремя кнопками, есть будильник.
+                                 
+                                 .include "tn2313adef.inc"
+                                 
+                                 ;***** Created: 2011-02-09 12:04 ******* Source: ATtiny2313A.xml *********
+                                 ;*************************************************************************
+                                 ;* A P P L I C A T I O N   N O T E   F O R   T H E   A V R   F A M I L Y
+                                 ;* 
+                                 ;* Number            : AVR000
+                                 ;* File Name         : "tn2313Adef.inc"
+                                 ;* Title             : Register/Bit Definitions for the ATtiny2313A
+                                 ;* Date              : 2011-02-09
+                                 ;* Version           : 2.35
+                                 ;* Support E-mail    : avr@atmel.com
+                                 ;* Target MCU        : ATtiny2313A
+                                 ;* 
+                                 ;* DESCRIPTION
+                                 ;* When including this file in the assembly program file, all I/O register 
+                                 ;* names and I/O register bit names appearing in the data book can be used.
+                                 ;* In addition, the six registers forming the three data pointers X, Y and 
+                                 ;* Z have been assigned names XL - ZH. Highest RAM address for Internal 
+                                 ;* SRAM is also defined 
+                                 ;* 
+                                 ;* The Register names are represented by their hexadecimal address.
+                                 ;* 
+                                 ;* The Register Bit names are represented by their bit number (0-7).
+                                 ;* 
+                                 ;* Please observe the difference in using the bit names with instructions
+                                 ;* such as "sbr"/"cbr" (set/clear bit in register) and "sbrs"/"sbrc"
+                                 ;* (skip if bit in register set/cleared). The following example illustrates
+                                 ;* this:
+                                 ;* 
+                                 ;* in    r16,PORTB             ;read PORTB latch
+                                 ;* sbr   r16,(1<<PB6)+(1<<PB5) ;set PB6 and PB5 (use masks, not bit#)
+                                 ;* out   PORTB,r16             ;output to PORTB
+                                 ;* 
+                                 ;* in    r16,TIFR              ;read the Timer Interrupt Flag Register
+                                 ;* sbrc  r16,TOV0              ;test the overflow flag (use bit#)
+                                 ;* rjmp  TOV0_is_set           ;jump if set
+                                 ;* ...                         ;otherwise do something else
+                                 ;*************************************************************************
+                                 
+                                 #ifndef _TN2313ADEF_INC_
+                                 #endif  /* _TN2313ADEF_INC_ */
+                                 
+                                 ; ***** END OF FILE ******************************************************
+                                 .include "config.inc"
+                                 
+                                 .equ 	baudrate = 4800
+                                 .equ 	bauddivider = XTAL / (16 * baudrate) - 1
+                                 
+                                 .equ	twi_PORT	=	PORTB
+                                 .equ	twi_DDR		=	DDRB
+                                 .equ	twi_SCL		=	PB7
+                                 .equ	twi_SDA		=	PB5
+                                 .equ	twi_PIN		=	PINB
+                                 
+                                 .equ	USISR_8BIT	=	0xF0
+                                 .equ	USISR_1BIT	=	0xFE
+                                 
+                                 
+                                 .equ	OUR_ADDR	=	0x02
+                                 
+                                 
+                                 ;------------------------- Светодиоды
+                                 
+                                 ;------------------------- LED_0
+                                 
+                                 .equ	PORT_LED_0		= PORTB
+                                 .equ	DDR_LED_0		= DDRB
+                                 .equ	PIN_LED_0		= PINB
+                                 
+                                 .equ	RED_LED_0		= PB6
+                                 .equ	GREEN_LED_0		= PB4
+                                 .equ	BLUE_LED_0		= PB3
+                                 
+                                 ;------------------------- LED_1
+                                 
+                                 .equ	PORT_LED_1		= PORTB
+                                 .equ	DDR_LED_1		= DDRB
+                                 .equ	PIN_LED_1		= PINB
+                                 
+                                 .equ	RED_LED_1		= PB2
+                                 .equ	GREEN_LED_1		= PB1
+                                 .equ	BLUE_LED_1		= PB0
+                                 
+                                 ;------------------------- LED_2
+                                 
+                                 .equ	PORT_LED_2		= PORTD
+                                 .equ	DDR_LED_2		= DDRD
+                                 .equ	PIN_LED_2		= PIND
+                                 
+                                 .equ	RED_LED_2		= PD4
+                                 .equ	GREEN_LED_2		= PD5
+                                 .equ	BLUE_LED_2		= PD6
+                                 
+                                 ;------------------------- LED_3
+                                 
+                                 .equ	PORT_LED_3		= PORTD
+                                 .equ	DDR_LED_3		= DDRD
+                                 .equ	PIN_LED_3		= PIND
+                                 
+                                 .equ	RED_LED_3		= PD1
+                                 .equ	GREEN_LED_3		= PD2
+                                 .equ	BLUE_LED_3		= PD3
+                                 
+                                 ;------------------------- LED_4
+                                 
+                                 .equ	PORT_LED_4RG	= PORTA
+                                 .equ	PORT_LED_4B		= PORTD
+                                 .equ	DDR_LED_4RG		= DDRA
+                                 .equ	DDR_LED_4B		= DDRD
+                                 .equ	PIN_LED_4RG		= PINA
+                                 .equ	PIN_LED_4B		= PIND
+                                 
+                                 .equ	RED_LED_4		= PA0
+                                 .equ	GREEN_LED_4		= PA1
+                                 .equ	BLUE_LED_4		= PD0
+                                 .include "vars.asm"
+                                 
+                                 ;			Р“Р»РѕР±Р°Р»СЊРЅС‹Рµ РєРѕРЅСЃС‚Р°РЅС‚С‹
+                                 ;========================================================
+                                 
+                                 .equ	LED_0			=	0x00
+                                 .equ	LED_1			=	0x01
+                                 .equ	LED_2			=	0x02
+                                 .equ	LED_3			=	0x03
+                                 .equ	LED_4			=	0x04
+                                 
+                                 ;========================================================
+                                 ;			Р“Р»РѕР±Р°Р»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ РІ Р РћРќ
+                                 ;========================================================
+                                 
+                                 .def	CONST_ZERO		= r0		; РїРѕСЃС‚РѕСЏРЅРЅС‹Р№ РЅРѕР»СЊ
+                                 .def	USER_REG_STATUS	= r16		; РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёР№ СЂРµРіРёСЃС‚СЂ СЃС‚Р°С‚СѓСЃРѕРІ
+                                 ;-------------------------------------------------
+                                 ;|  7  |  6  |  5  |  4  |  3  |  2  |  1  |  0  |
+                                 ;-------------------------------------------------
+                                 ; Р±РёС‚ 0 - ACK_NACK: 0 - ACK, 1 - NACK
+                                 
+                                 .def	LED_0_cache		= r10
+                                 .def	LED_1_cache		= r11
+                                 .def	LED_2_cache		= r12
+                                 .def	LED_3_cache		= r13
+                                 .def	LED_4_cache		= r14
+                                 
+                                 .def	ADDR			= r20
+                                 .def	LED				= r21
+                                 .def	COLOR			= r22
+                                 
+                                 .def	BYTE			= r23		; Р‘Р°Р№С‚ РїРµСЂРµРґР°С‡Рё\РїСЂРёС‘Рј РґР°РЅРЅС‹С…
+                                 
+                                 ;========================================================
+                                 ;				Р“Р»РѕР±Р°Р»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ РІ RAM
+                                 ;========================================================
+                                 
+                                 .dseg								; Р’С‹Р±РёСЂР°РµРј СЃРµРіРјРµРЅС‚ RAM
+                                 	.org	0x60					; РЈСЃС‚Р°РЅР°РІР»РёРІР°РµРј С‚РµРєСѓС‰РёР№ Р°РґСЂРµСЃ СЃРµРіРјРµРЅС‚Р°
+                                 
+                                 ;------------------------- РҐСЂР°РЅРµРЅРёРµ РґР°РЅРЅС‹С… РІ СѓРїР°РєРѕРІР°РЅРЅРѕРј С„РѕСЂРјР°С‚Рµ РѕС‚ DS1302
+                                 
+                                 ;========================================================
+                                 ;			 Начало программного кода
+                                 ;========================================================
+                                 
+                                 .cseg		 						; Выбор сегмента программного кода
+                                 	.org	0						; Установка текущего адреса на ноль
+                                 
+                                 start:	
+                                 	.include "interrupts_vector.asm"
+                                 
+                                 ;				 Вектор прерываний
+                                 ;========================================================		
+                                 
+000000 c03e                      	rjmp	init	; Переход на начало программы
+000001 9518                      	reti			; Внешнее прерывание 0
+000002 9518                      	reti			; Внешнее прерывание 1
+000003 9518                      	reti			; Прерывание по захвату таймера T1
+000004 9518                      	reti 			; Прерывание по совпадению T1 A
+000005 9518                      	reti			; Прерывание по переполнению T1
+000006 9518                      	reti			; Прерывание по переполнению T0
+000007 9518                      	reti			; Прерывание UART прием завершен
+000008 9518                      	reti			; Прерывание UART регистр данных пуст
+000009 9518                      	reti			; Прерывание UART передача завершена
+00000a 9518                      	reti			; Прерывание по компаратору
+00000b 9518                      	reti			; Прерывание по изменению на любом контакте
+00000c 9518                      	reti			; Таймер/счетчик 1. Совпадение B 
+00000d 9518                      	reti			; Таймер/счетчик 0. Совпадение A
+00000e 9518                      	reti			; Таймер/счетчик 0. Совпадение B 
+00000f c005                      	rjmp	_TWI_start; USI Стартовая готовность
+000010 9518                      	reti			; USI Переполнение
+000011 9518                      	reti			; EEPROM Готовность
+000012 9518                      	reti			; Переполнение охранного таймера
+000013 9518                      	reti			; PCINT1 Handler
+                                 	.include "interrupts.asm"
+000014 9518                      
+                                 ;		Прерывание UART - приём завершен	
+                                 ;========================================================
+                                 
+                                 _TWI_start:
+000015 931f                      	push	r17
+                                 
+000016 d04a                      	rcall	twi_recive_byte
+                                 	;rcall	USART_Transmit
+000017 2f47                      	mov		ADDR, BYTE
+                                 
+000018 d050                      	rcall	MCU_wait_10mks
+000019 d047                      	rcall	twi_recive_byte
+                                 	;rcall	USART_Transmit
+00001a 2f57                      	mov		LED, BYTE
+                                 
+00001b d04d                      	rcall	MCU_wait_10mks
+00001c d044                      	rcall	twi_recive_byte
+                                 	;rcall	USART_Transmit
+00001d 2f67                      	mov		COLOR, BYTE
+                                 
+00001e 3042                      	cpi		ADDR, OUR_ADDR
+00001f f4c9                      	brne	_TWI_start_end
+                                 
+000020 3050                      	cpi		LED, LED_0
+000021 f049                      	breq	LED_0_cmd
+                                 
+000022 3051                      	cpi		LED, LED_1
+000023 f051                      	breq	LED_1_cmd
+                                 
+000024 3052                      	cpi		LED, LED_2
+000025 f059                      	breq	LED_2_cmd
+                                 
+000026 3053                      	cpi		LED, LED_3
+000027 f061                      	breq	LED_3_cmd
+                                 
+000028 3054                      	cpi		LED, LED_4
+000029 f069                      	breq	LED_4_cmd
+                                 
+00002a c00e                      	rjmp	_TWI_start_end
+                                 
+                                 	LED_0_cmd:
+00002b 2f16                      		mov		r17, COLOR
+00002c d098                      		rcall	LED_0_select_cmd
+                                 
+00002d c00b                      		rjmp	_TWI_start_end
+                                 
+                                 	LED_1_cmd:
+00002e 2f16                      		mov		r17, COLOR
+00002f d109                      		rcall	LED_1_select_cmd
+                                 
+000030 c008                      		rjmp	_TWI_start_end
+                                 
+                                 	LED_2_cmd:
+000031 2f16                      		mov		r17, COLOR
+000032 d17a                      		rcall	LED_2_select_cmd
+                                 
+000033 c005                      		rjmp	_TWI_start_end
+                                 
+                                 	LED_3_cmd:
+000034 2f16                      		mov		r17, COLOR
+000035 d1eb                      		rcall	LED_3_select_cmd
+                                 
+000036 c002                      		rjmp	_TWI_start_end
+                                 
+                                 	LED_4_cmd:
+000037 2f16                      		mov		r17, COLOR
+000038 d261                      		rcall	LED_4_select_cmd
+                                 
+                                 	_TWI_start_end:
+                                 
+000039 ef10                      		ldi		r17, ( 1 << USISIF ) | ( 1 << USIOIF ) | ( 1 << USIPF ) | ( 1 << USIDC ) | ( 0 << USICNT0 )
+00003a b91e                      		out		USISR, r17
+                                 
+00003b ea18                      		ldi		r17, ( 1 << USISIE ) | ( 0 << USIOIE ) | ( 1 << USIWM1 ) | ( 0 << USIWM0 ) | ( 1 << USICS1 ) | ( 0 << USICS0 ) | ( 0 << USICLK ) | ( 0 << USITC )
+00003c b91d                      		out		USICR, r17
+                                 
+00003d 911f                      		pop		r17
+                                 
+                                 	.include "initialization.asm"
+00003e 9518                      
+                                 ;				 Модуль инициализации
+                                 ;========================================================
+                                 
+                                 init:
+                                 
+                                 	;-------------------------- Инициализация стека
+                                 	
+00003f ed1f                      	ldi		r17, RAMEND			; Выбор адреса вершины стека 
+000040 bf1d                      	out		SPL, r17			; Запись его в регистр стека
+                                 
+                                 	;--------------------------- Инициализация компаратора
+                                 
+000041 e810                      	ldi 	r17, 0x80			; Выключение компаратора
+000042 b918                      	out		ACSR, r17
+                                 
+                                 	;-------------------------- Инициализация Главного предделителя
+                                 
+000043 e810                      	ldi		r17, 0x80		    ; 
+000044 bd16                      	out		CLKPR, r17			; 
+000045 e013                      	ldi		r17, 0x03			; Записываем 3 в регистр r17
+000046 bd16                      	out		CLKPR, r17			; Записываем это число в CLKPR, указывая, что мы делим частоту на 8.
+                                 
+                                 	;-------------------------- Инициализация портов ВВ по умолчанию (на вход с подтягивающим резистором)
+                                 
+000047 ef1f                      	ser		r17
+000048 bb1b                      	out		PORTA, r17
+000049 bb18                      	out		PORTB, r17
+00004a bb12                      	out		PORTD, r17
+                                 
+00004b ba0a                      	out		DDRA, CONST_ZERO
+00004c ba07                      	out		DDRB, CONST_ZERO
+00004d ba01                      	out		DDRD, CONST_ZERO
+                                 
+                                 	;-------------------------- Инициализация TWI
+                                 
+00004e 98bf                      	cbi		twi_DDR, twi_SCL
+00004f 98bd                      	cbi		twi_DDR, twi_SDA
+                                 
+000050 ea18                      	ldi		r17, ( 1 << USISIE ) | ( 0 << USIOIE ) | ( 1 << USIWM1 ) | ( 0 << USIWM0 ) | ( 1 << USICS1 ) | ( 0 << USICS0 ) | ( 0 << USICLK ) | ( 0 << USITC )
+000051 b91d                      	out		USICR, r17
+                                 
+000052 ef10                      	ldi		r17, ( 1 << USISIF ) | ( 1 << USIOIF ) | ( 1 << USIPF ) | ( 1 << USIDC ) | ( 0 << USICNT0 )
+000053 b91e                      	out		USISR, r17
+                                 
+                                 	;sbi		twi_PORT, twi_SCL
+                                 	;sbi		twi_PORT, twi_SDA
+                                 
+                                 	;--------------------------- Разрешаем режим сна (idle)
+                                 
+000054 e210                      	ldi		r17, 1 << SE
+000055 bf15                      	out		MCUCR, r17
+                                 	
+                                 	;--------------------------- Инициализация USART
+                                 
+                                 /*	ldi 	r17, low(bauddivider)
+                                 	out 	UBRRL, r17
+                                 	ldi 	r17, high(bauddivider)
+                                 	out 	UBRRH, r17
+                                  
+                                 	out 	UCSRA, r17
+                                  
+                                 	ldi 	r17, (1 << RXEN) | (1 << TXEN) | (0 << RXCIE) | (0 << TXCIE) | (0 << UDRIE) | (0 << UCSZ2) ; передача и приём разрешены, прерывания по приёму байта включено.
+                                 	out 	UCSRB, r17
+                                 	
+                                 	;формат кадра - 8 бит, пишем в регистр ucsrc, за это отвечает бит селектор
+                                 	ldi 	r17, (0 << UMSEL0) | (0 << UMSEL1) | (1 << UCSZ0) | (1 << UCSZ1) | (0 << UPM1) | (0 << UPM0) | (0 << USBS) | (0 << UCPOL)
+                                 	out 	UCSRC, r17*/
+                                 
+                                 	;-------------------------- Основной бесконечный цикл в ожидании прерывания
+                                 
+                                 /*	rcall	LED_0_RED_on
+                                 	ldi		r17, 0x01
+                                 	mov		LED_0_cache, r17
+                                 	rcall	MCU_wait_200ms
+                                 	rcall	LED_0_toggle
+                                 	rcall	MCU_wait_200ms
+                                 	rcall	LED_0_toggle*/
+                                 
+000056 9478                      	sei
+                                 	main:	 
+                                 		;sleep
+000057 cfff                      		rjmp	main
+                                 
+                                 .include "lib.asm"
+                                 .include "twi_mp.asm"
+                                 
+                                 ; twi master_transfer
+                                 ; входящее r17 (usisr_8bit или usisr_1bit)
+                                 ; исходящее byte
+                                 ;========================================================
+                                 twi_transfer:
+                                 
+000058 b91e                      	out		usisr, r17
+000059 e219                      	ldi		r17, (0 << usisie) | (0 << usioie) | (1 << usiwm1) | (0 << usiwm0) | (1 << usics1) | (0 << usics0) | (0 << usiclk) | (1 << usitc)
+                                 
+                                 	loop_send:
+00005a d00e                      		rcall	mcu_wait_10mks
+00005b b91d                      		out		usicr, r17
+                                 
+00005c 9b76                      		sbis	usisr, usioif
+00005d cffc                      		rjmp	loop_send
+                                 
+00005e d00a                      	rcall	mcu_wait_10mks
+00005f b17f                      	in		byte, usidr
+                                 
+000060 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ; TWI recive
+                                 ; исходящее BYTE
+                                 ;========================================================
+                                 
+                                 twi_recive_byte:
+000061 931f                      	push	r17
+                                 
+000062 98bd                      	cbi		twi_DDR, twi_SDA
+                                 
+000063 ef10                      	ldi		r17,  USISR_8BIT
+000064 dff3                      	rcall	twi_transfer
+000065 937f                      	push	BYTE
+                                 
+000066 917f                      		pop		BYTE
+000067 911f                      		pop		r17
+                                 
+000068 9508                      	ret
+                                 
+                                 /*;========================================================
+                                 ; Установка бита NACK_ACK
+                                 ;========================================================
+                                 
+                                 twi_send_ack:
+                                 	push	r17
+                                 
+                                 	ldi		r17, 0x00
+                                 	out		USIDR, r17
+                                 
+                                 	sbi		twi_DDR, twi_SDA
+                                 	ldi		r17,  USISR_1BIT
+                                 	rcall	twi_transfer
+                                 	;rcall	mcu_wait_10mks
+                                 	cbi		twi_DDR, twi_SDA
+                                 
+                                 	pop		r17
+                                 
+                                 	ret
+                                 
+                                 twi_send_nack:
+                                 	push	r17
+                                 
+                                 	ldi		r17, 0xFF
+                                 	out		USIDR, r17
+                                 
+                                 	sbi		twi_DDR, twi_SDA
+                                 	ldi		r17,  USISR_1BIT
+                                 	rcall	twi_transfer
+                                 	;rcall	mcu_wait_10mks
+                                 	cbi		twi_DDR, twi_SDA
+                                 
+                                 	pop		r17
+                                 
+                                 	ret
+                                 ;.include "uart.asm"
+                                 .include "delay.asm"
+                                 
+                                 ;			Подпрограммы формирования задержки
+                                 ;				для частоты МК в 1МГц
+                                 ;========================================================
+                                 
+                                 ;========================================================
+                                 ;						10 мкс
+                                 ;========================================================
+                                 
+                                 MCU_wait_10mks:						
+000069 0000                      	nop
+00006a 0000                      	nop
+00006b 0000                      	nop
+                                 
+00006c 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;			Подпрограммы формирования задержки
+                                 ;				199 096 тактов ~ 200 мс
+                                 ;========================================================
+                                 
+                                 MCU_wait_200ms:						
+00006d 931f                      	push	r17
+00006e 930f                      	push	r16
+                                 
+00006f e31c                      	ldi		r17, 60
+000070 ef0f                      	ser		r16
+                                 
+                                 	MCU_wait_200ms_loop_L:
+000071 dff7                      		rcall	MCU_wait_10mks
+000072 950a                      		dec		r16
+000073 f7e9                      		brne	MCU_wait_200ms_loop_L
+                                 
+                                 	MCU_wait_200ms_loop_H:
+000074 ef0f                      		ser		r16
+000075 951a                      		dec		r17
+000076 f7d1                      		brne	MCU_wait_200ms_loop_L
+                                 
+000077 910f                      	pop		r16
+000078 911f                      	pop		r17
+                                 
+000079 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;			Подпрограммы формирования задержки
+                                 ;				995 487 тактов ~ 1 сек.
+                                 ;========================================================
+                                 MCU_wait_1000ms:
+00007a dff2                      	rcall	MCU_wait_200ms
+00007b dff1                      	rcall	MCU_wait_200ms
+00007c dff0                      	rcall	MCU_wait_200ms
+00007d dfef                      	rcall	MCU_wait_200ms
+00007e dfee                      	rcall	MCU_wait_200ms
+                                 
+00007f 9508                      	ret
+                                 
+                                 
+                                 .include "led_0.asm"
+                                 
+                                 ;			Процедуры для LED RGB
+                                 ;========================================================
+                                 
+                                 LED_0_off:
+000080 98be                      	cbi		DDR_LED_0, RED_LED_0
+000081 98bb                      	cbi		DDR_LED_0, BLUE_LED_0
+000082 98bc                      	cbi		DDR_LED_0, GREEN_LED_0
+                                 
+000083 9ac6                      	sbi		PORT_LED_0, RED_LED_0
+000084 9ac3                      	sbi		PORT_LED_0, BLUE_LED_0
+000085 9ac4                      	sbi		PORT_LED_0, GREEN_LED_0
+                                 
+                                 	;rcall	MCU_wait_10mks
+                                 
+000086 9508                      	ret
+                                 
+                                 LED_0_RED_on:
+000087 9abe                      	sbi		DDR_LED_0, RED_LED_0
+000088 98c6                      	cbi		PORT_LED_0, RED_LED_0
+                                 
+000089 9508                      	ret
+                                 
+                                 LED_0_GREEN_on:
+00008a 9abc                      	sbi		DDR_LED_0, GREEN_LED_0
+00008b 98c4                      	cbi		PORT_LED_0, GREEN_LED_0
+                                 
+00008c 9508                      	ret
+                                 
+                                 LED_0_BLUE_on:
+00008d 9abb                      	sbi		DDR_LED_0, BLUE_LED_0
+00008e 98c3                      	cbi		PORT_LED_0, BLUE_LED_0
+                                 
+00008f 9508                      	ret
+                                 
+                                 LED_0_YELLOW_on:
+000090 dff6                      	rcall	LED_0_RED_on
+000091 dff8                      	rcall	LED_0_GREEN_on
+                                 
+000092 9508                      	ret
+                                 
+                                 LED_0_MAGENTA_on:
+000093 dff3                      	rcall	LED_0_RED_on
+000094 dff8                      	rcall	LED_0_BLUE_on
+                                 
+000095 9508                      	ret
+                                 
+                                 LED_0_WHITE_BLUE_on:
+000096 dff3                      	rcall	LED_0_GREEN_on
+000097 dff5                      	rcall	LED_0_BLUE_on
+                                 
+000098 911f                      	pop		r17
+                                 
+000099 9508                      	ret
+                                 
+                                 LED_0_WHITE_on:
+00009a dfec                      	rcall	LED_0_RED_on
+00009b dfee                      	rcall	LED_0_GREEN_on
+00009c dff0                      	rcall	LED_0_BLUE_on
+                                 
+00009d 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;					Тест LED_0
+                                 ;========================================================
+                                 
+                                 LED_0_test:
+00009e d016                      	rcall	LED_0_test_ext1
+00009f dfe7                      	rcall	LED_0_RED_on
+0000a0 d017                      	rcall	LED_0_test_ext2
+                                 
+0000a1 d013                      	rcall	LED_0_test_ext1
+0000a2 dfe7                      	rcall	LED_0_GREEN_on
+0000a3 d014                      	rcall	LED_0_test_ext2
+                                 
+0000a4 d010                      	rcall	LED_0_test_ext1
+0000a5 dfe7                      	rcall	LED_0_BLUE_on
+0000a6 d011                      	rcall	LED_0_test_ext2
+                                 
+0000a7 d00d                      	rcall	LED_0_test_ext1
+0000a8 dfe7                      	rcall	LED_0_YELLOW_on
+0000a9 d00e                      	rcall	LED_0_test_ext2
+                                 
+0000aa d00a                      	rcall	LED_0_test_ext1
+0000ab dfe7                      	rcall	LED_0_MAGENTA_on
+0000ac d00b                      	rcall	LED_0_test_ext2
+                                 
+0000ad d007                      	rcall	LED_0_test_ext1
+0000ae dfe7                      	rcall	LED_0_WHITE_BLUE_on
+0000af d008                      	rcall	LED_0_test_ext2
+                                 
+0000b0 d004                      	rcall	LED_0_test_ext1
+0000b1 dfe8                      	rcall	LED_0_WHITE_on
+0000b2 d005                      	rcall	LED_0_test_ext2
+                                 
+0000b3 dfcc                      	rcall	LED_0_off
+                                 
+0000b4 9508                      	ret
+                                 
+                                 LED_0_test_ext1:
+0000b5 dfca                      	rcall	LED_0_off
+0000b6 dfc3                      	rcall	MCU_wait_1000ms
+                                 
+0000b7 9508                      	ret
+                                 
+                                 LED_0_test_ext2:
+0000b8 dfc1                      	rcall	MCU_wait_1000ms
+                                 
+0000b9 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Переключить LED_0 на противоположное состояние.
+                                 ;========================================================
+                                 
+                                 LED_0_toggle:
+0000ba 931f                      	push	r17
+                                 
+0000bb b317                      	in		r17, DDR_LED_0
+0000bc 7518                      	andi	r17, (1 << RED_LED_0) | (1 << GREEN_LED_0) | (1 << BLUE_LED_0) ;0x58
+0000bd 3010                      	cpi		r17, 0x00
+0000be f011                      	breq	LED_0_toggle_enable
+                                 
+0000bf dfc0                      	rcall	LED_0_off
+                                 
+0000c0 c002                      	rjmp	LED_0_toggle_end
+                                 
+                                 	LED_0_toggle_enable:
+0000c1 2d1a                      		mov		r17, LED_0_cache
+0000c2 d002                      		rcall	LED_0_select_cmd
+                                 
+                                 	LED_0_toggle_end:
+0000c3 911f                      		pop		r17
+                                 		
+0000c4 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Выбор команды для LED_0
+                                 ;	Команда - r17
+                                 ;========================================================
+                                 
+                                 LED_0_select_cmd:
+                                 
+0000c5 3018                      	cpi		r17, 0x08
+0000c6 f161                      	breq	LED_0_select_cmd_toggle
+                                 
+0000c7 dfb8                      	rcall	LED_0_off
+                                 
+0000c8 3011                      	cpi		r17, 0x01
+0000c9 f069                      	breq	LED_0_select_cmd_red
+                                 
+0000ca 3012                      	cpi		r17, 0x02
+0000cb f079                      	breq	LED_0_select_cmd_green
+                                 
+0000cc 3013                      	cpi		r17, 0x03
+0000cd f089                      	breq	LED_0_select_cmd_blue
+                                 
+0000ce 3014                      	cpi		r17, 0x04
+0000cf f099                      	breq	LED_0_select_cmd_yellow
+                                 
+0000d0 3015                      	cpi		r17, 0x05
+0000d1 f0a9                      	breq	LED_0_select_cmd_magenta
+                                 
+0000d2 3016                      	cpi		r17, 0x06
+0000d3 f0b9                      	breq	LED_0_select_cmd_white_blue
+                                 
+0000d4 3017                      	cpi		r17, 0x07
+0000d5 f0c9                      	breq	LED_0_select_cmd_white
+                                 
+0000d6 9508                      	ret
+                                 
+                                 	LED_0_select_cmd_red:
+0000d7 dfaf                      		rcall	LED_0_RED_on
+0000d8 e011                      		ldi		r17, 0x01
+0000d9 2ea1                      		mov		LED_0_cache, r17
+                                 
+0000da 9508                      		ret
+                                 	
+                                 	LED_0_select_cmd_green:
+0000db dfae                      		rcall	LED_0_GREEN_on
+0000dc e012                      		ldi		r17, 0x02
+0000dd 2ea1                      		mov		LED_0_cache, r17
+                                 
+0000de 9508                      		ret
+                                 
+                                 	LED_0_select_cmd_blue:
+0000df dfad                      		rcall	LED_0_BLUE_on
+0000e0 e013                      		ldi		r17, 0x03
+0000e1 2ea1                      		mov		LED_0_cache, r17
+                                 
+0000e2 9508                      		ret
+                                 
+                                 	LED_0_select_cmd_yellow:
+0000e3 dfac                      		rcall	LED_0_YELLOW_on
+0000e4 e014                      		ldi		r17, 0x04
+0000e5 2ea1                      		mov		LED_0_cache, r17
+                                 
+0000e6 9508                      		ret
+                                 
+                                 	LED_0_select_cmd_magenta:
+0000e7 dfab                      		rcall	LED_0_MAGENTA_on
+0000e8 e015                      		ldi		r17, 0x05
+0000e9 2ea1                      		mov		LED_0_cache, r17
+                                 
+0000ea 9508                      		ret
+                                 
+                                 	LED_0_select_cmd_white_blue:
+0000eb dfaa                      		rcall	LED_0_WHITE_BLUE_on
+0000ec e016                      		ldi		r17, 0x06
+0000ed 2ea1                      		mov		LED_0_cache, r17
+                                 
+0000ee 9508                      		ret
+                                 
+                                 	LED_0_select_cmd_white:
+0000ef dfaa                      		rcall	LED_0_WHITE_on
+0000f0 e017                      		ldi		r17, 0x07
+0000f1 2ea1                      		mov		LED_0_cache, r17
+                                 
+0000f2 9508                      		ret
+                                 
+                                 	LED_0_select_cmd_toggle:
+0000f3 dfc6                      		rcall	LED_0_toggle
+                                 
+0000f4 9508                      	ret
+                                 .include "led_1.asm"
+                                 
+                                 ;			Процедуры для LED RGB
+                                 ;========================================================
+                                 
+                                 LED_1_off:
+0000f5 98ba                      	cbi		DDR_LED_1, RED_LED_1
+0000f6 98b8                      	cbi		DDR_LED_1, BLUE_LED_1
+0000f7 98b9                      	cbi		DDR_LED_1, GREEN_LED_1
+                                 
+0000f8 9ac2                      	sbi		PORT_LED_1, RED_LED_1
+0000f9 9ac0                      	sbi		PORT_LED_1, BLUE_LED_1
+0000fa 9ac1                      	sbi		PORT_LED_1, GREEN_LED_1
+                                 
+                                 	;rcall	MCU_wait_10mks
+                                 
+0000fb 9508                      	ret
+                                 
+                                 LED_1_RED_on:
+0000fc 9aba                      	sbi		DDR_LED_1, RED_LED_1
+0000fd 98c2                      	cbi		PORT_LED_1, RED_LED_1
+                                 
+0000fe 9508                      	ret
+                                 
+                                 LED_1_GREEN_on:
+0000ff 9ab9                      	sbi		DDR_LED_1, GREEN_LED_1
+000100 98c1                      	cbi		PORT_LED_1, GREEN_LED_1
+                                 
+000101 9508                      	ret
+                                 
+                                 LED_1_BLUE_on:
+000102 9ab8                      	sbi		DDR_LED_1, BLUE_LED_1
+000103 98c0                      	cbi		PORT_LED_1, BLUE_LED_1
+                                 
+000104 9508                      	ret
+                                 
+                                 LED_1_YELLOW_on:
+000105 dff6                      	rcall	LED_1_RED_on
+000106 dff8                      	rcall	LED_1_GREEN_on
+                                 
+000107 9508                      	ret
+                                 
+                                 LED_1_MAGENTA_on:
+000108 dff3                      	rcall	LED_1_RED_on
+000109 dff8                      	rcall	LED_1_BLUE_on
+                                 
+00010a 9508                      	ret
+                                 
+                                 LED_1_WHITE_BLUE_on:
+00010b dff3                      	rcall	LED_1_GREEN_on
+00010c dff5                      	rcall	LED_1_BLUE_on
+                                 
+00010d 9508                      	ret
+                                 
+                                 LED_1_WHITE_on:
+00010e dfed                      	rcall	LED_1_RED_on
+00010f dfef                      	rcall	LED_1_GREEN_on
+000110 dff1                      	rcall	LED_1_BLUE_on
+                                 
+000111 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;					Тест LED_1
+                                 ;========================================================
+                                 
+                                 LED_1_test:
+000112 d016                      	rcall	LED_1_test_ext1
+000113 dfe8                      	rcall	LED_1_RED_on
+000114 d017                      	rcall	LED_1_test_ext2
+                                 
+000115 d013                      	rcall	LED_1_test_ext1
+000116 dfe8                      	rcall	LED_1_GREEN_on
+000117 d014                      	rcall	LED_1_test_ext2
+                                 
+000118 d010                      	rcall	LED_1_test_ext1
+000119 dfe8                      	rcall	LED_1_BLUE_on
+00011a d011                      	rcall	LED_1_test_ext2
+                                 
+00011b d00d                      	rcall	LED_1_test_ext1
+00011c dfe8                      	rcall	LED_1_YELLOW_on
+00011d d00e                      	rcall	LED_1_test_ext2
+                                 
+00011e d00a                      	rcall	LED_1_test_ext1
+00011f dfe8                      	rcall	LED_1_MAGENTA_on
+000120 d00b                      	rcall	LED_1_test_ext2
+                                 
+000121 d007                      	rcall	LED_1_test_ext1
+000122 dfe8                      	rcall	LED_1_WHITE_BLUE_on
+000123 d008                      	rcall	LED_1_test_ext2
+                                 
+000124 d004                      	rcall	LED_1_test_ext1
+000125 dfe8                      	rcall	LED_1_WHITE_on
+000126 d005                      	rcall	LED_1_test_ext2
+                                 
+000127 dfcd                      	rcall	LED_1_off
+                                 
+000128 9508                      	ret
+                                 
+                                 LED_1_test_ext1:
+000129 dfcb                      	rcall	LED_1_off
+00012a df4f                      	rcall	MCU_wait_1000ms
+                                 
+00012b 9508                      	ret
+                                 
+                                 LED_1_test_ext2:
+00012c df4d                      	rcall	MCU_wait_1000ms
+                                 
+00012d 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Переключить LED_0 на противоположное состояние.
+                                 ;========================================================
+                                 
+                                 LED_1_toggle:
+00012e 931f                      	push	r17
+                                 
+00012f b317                      	in		r17, DDR_LED_1
+000130 7017                      	andi	r17, (1 << RED_LED_1) | (1 << GREEN_LED_1) | (1 << BLUE_LED_1) 
+000131 3010                      	cpi		r17, 0x00
+000132 f011                      	breq	LED_1_toggle_enable
+                                 
+000133 dfc1                      	rcall	LED_1_off
+                                 
+000134 c002                      	rjmp	LED_1_toggle_end
+                                 
+                                 	LED_1_toggle_enable:
+000135 2d1b                      		mov		r17, LED_1_cache
+000136 d002                      		rcall	LED_1_select_cmd
+                                 
+                                 	LED_1_toggle_end:
+000137 911f                      		pop		r17
+                                 		
+000138 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Выбор команды для LED_0
+                                 ;	Команда - r17
+                                 ;========================================================
+                                 
+                                 LED_1_select_cmd:
+                                 
+000139 3018                      	cpi		r17, 0x08
+00013a f161                      	breq	LED_1_select_cmd_toggle
+                                 
+00013b dfb9                      	rcall	LED_1_off
+                                 
+00013c 3011                      	cpi		r17, 0x01
+00013d f069                      	breq	LED_1_select_cmd_red
+                                 
+00013e 3012                      	cpi		r17, 0x02
+00013f f079                      	breq	LED_1_select_cmd_green
+                                 
+000140 3013                      	cpi		r17, 0x03
+000141 f089                      	breq	LED_1_select_cmd_blue
+                                 
+000142 3014                      	cpi		r17, 0x04
+000143 f099                      	breq	LED_1_select_cmd_yellow
+                                 
+000144 3015                      	cpi		r17, 0x05
+000145 f0a9                      	breq	LED_1_select_cmd_magenta
+                                 
+000146 3016                      	cpi		r17, 0x06
+000147 f0b9                      	breq	LED_1_select_cmd_white_blue
+                                 
+000148 3017                      	cpi		r17, 0x07
+000149 f0c9                      	breq	LED_1_select_cmd_white
+                                 
+00014a 9508                      	ret
+                                 
+                                 	LED_1_select_cmd_red:
+00014b dfb0                      		rcall	LED_1_RED_on
+00014c e011                      		ldi		r17, 0x01
+00014d 2eb1                      		mov		LED_1_cache, r17
+                                 
+00014e 9508                      		ret
+                                 	
+                                 	LED_1_select_cmd_green:
+00014f dfaf                      		rcall	LED_1_GREEN_on
+000150 e012                      		ldi		r17, 0x02
+000151 2eb1                      		mov		LED_1_cache, r17
+                                 
+000152 9508                      		ret
+                                 
+                                 	LED_1_select_cmd_blue:
+000153 dfae                      		rcall	LED_1_BLUE_on
+000154 e013                      		ldi		r17, 0x03
+000155 2eb1                      		mov		LED_1_cache, r17
+                                 
+000156 9508                      		ret
+                                 
+                                 	LED_1_select_cmd_yellow:
+000157 dfad                      		rcall	LED_1_YELLOW_on
+000158 e014                      		ldi		r17, 0x04
+000159 2eb1                      		mov		LED_1_cache, r17
+                                 
+00015a 9508                      		ret
+                                 
+                                 	LED_1_select_cmd_magenta:
+00015b dfac                      		rcall	LED_1_MAGENTA_on
+00015c e015                      		ldi		r17, 0x05
+00015d 2eb1                      		mov		LED_1_cache, r17
+                                 
+00015e 9508                      		ret
+                                 
+                                 	LED_1_select_cmd_white_blue:
+00015f dfab                      		rcall	LED_1_WHITE_BLUE_on
+000160 e016                      		ldi		r17, 0x06
+000161 2eb1                      		mov		LED_1_cache, r17
+                                 
+000162 9508                      		ret
+                                 
+                                 	LED_1_select_cmd_white:
+000163 dfaa                      		rcall	LED_1_WHITE_on
+000164 e017                      		ldi		r17, 0x07
+000165 2eb1                      		mov		LED_1_cache, r17
+                                 
+000166 9508                      		ret
+                                 
+                                 	LED_1_select_cmd_toggle:
+000167 dfc6                      		rcall	LED_1_toggle
+                                 
+000168 9508                      	ret
+                                 .include "led_2.asm"
+                                 
+                                 ;			Процедуры для LED RGB
+                                 ;========================================================
+                                 
+                                 LED_2_off:
+000169 988c                      	cbi		DDR_LED_2, RED_LED_2
+00016a 988e                      	cbi		DDR_LED_2, BLUE_LED_2
+00016b 988d                      	cbi		DDR_LED_2, GREEN_LED_2
+                                 
+00016c 9a94                      	sbi		PORT_LED_2, RED_LED_2
+00016d 9a96                      	sbi		PORT_LED_2, BLUE_LED_2
+00016e 9a95                      	sbi		PORT_LED_2, GREEN_LED_2
+                                 
+                                 	;rcall	MCU_wait_10mks
+                                 
+00016f 9508                      	ret
+                                 
+                                 LED_2_RED_on:
+000170 9a8c                      	sbi		DDR_LED_2, RED_LED_2
+000171 9894                      	cbi		PORT_LED_2, RED_LED_2
+                                 
+000172 9508                      	ret
+                                 
+                                 LED_2_GREEN_on:
+000173 9a8d                      	sbi		DDR_LED_2, GREEN_LED_2
+000174 9895                      	cbi		PORT_LED_2, GREEN_LED_2
+                                 
+000175 9508                      	ret
+                                 
+                                 LED_2_BLUE_on:
+000176 9a8e                      	sbi		DDR_LED_2, BLUE_LED_2
+000177 9896                      	cbi		PORT_LED_2, BLUE_LED_2
+                                 
+000178 9508                      	ret
+                                 
+                                 LED_2_YELLOW_on:
+000179 dff6                      	rcall	LED_2_RED_on
+00017a dff8                      	rcall	LED_2_GREEN_on
+                                 
+00017b 9508                      	ret
+                                 
+                                 LED_2_MAGENTA_on:
+00017c dff3                      	rcall	LED_2_RED_on
+00017d dff8                      	rcall	LED_2_BLUE_on
+                                 
+00017e 9508                      	ret
+                                 
+                                 LED_2_WHITE_BLUE_on:
+00017f dff3                      	rcall	LED_2_GREEN_on
+000180 dff5                      	rcall	LED_2_BLUE_on
+                                 
+000181 9508                      	ret
+                                 
+                                 LED_2_WHITE_on:
+000182 dfed                      	rcall	LED_2_RED_on
+000183 dfef                      	rcall	LED_2_GREEN_on
+000184 dff1                      	rcall	LED_2_BLUE_on
+                                 
+000185 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;					Тест LED_2
+                                 ;========================================================
+                                 
+                                 LED_2_test:
+000186 d016                      	rcall	LED_2_test_ext1
+000187 dfe8                      	rcall	LED_2_RED_on
+000188 d017                      	rcall	LED_2_test_ext2
+                                 
+000189 d013                      	rcall	LED_2_test_ext1
+00018a dfe8                      	rcall	LED_2_GREEN_on
+00018b d014                      	rcall	LED_2_test_ext2
+                                 
+00018c d010                      	rcall	LED_2_test_ext1
+00018d dfe8                      	rcall	LED_2_BLUE_on
+00018e d011                      	rcall	LED_2_test_ext2
+                                 
+00018f d00d                      	rcall	LED_2_test_ext1
+000190 dfe8                      	rcall	LED_2_YELLOW_on
+000191 d00e                      	rcall	LED_2_test_ext2
+                                 
+000192 d00a                      	rcall	LED_2_test_ext1
+000193 dfe8                      	rcall	LED_2_MAGENTA_on
+000194 d00b                      	rcall	LED_2_test_ext2
+                                 
+000195 d007                      	rcall	LED_2_test_ext1
+000196 dfe8                      	rcall	LED_2_WHITE_BLUE_on
+000197 d008                      	rcall	LED_2_test_ext2
+                                 
+000198 d004                      	rcall	LED_2_test_ext1
+000199 dfe8                      	rcall	LED_2_WHITE_on
+00019a d005                      	rcall	LED_2_test_ext2
+                                 
+00019b dfcd                      	rcall	LED_2_off
+                                 
+00019c 9508                      	ret
+                                 
+                                 LED_2_test_ext1:
+00019d dfcb                      	rcall	LED_2_off
+00019e dedb                      	rcall	MCU_wait_1000ms
+                                 
+00019f 9508                      	ret
+                                 
+                                 LED_2_test_ext2:
+0001a0 ded9                      	rcall	MCU_wait_1000ms
+                                 
+0001a1 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Переключить LED_2 на противоположное состояние.
+                                 ;========================================================
+                                 
+                                 LED_2_toggle:
+0001a2 931f                      	push	r17
+                                 
+0001a3 b311                      	in		r17, DDR_LED_2
+0001a4 7710                      	andi	r17, (1 << RED_LED_2) | (1 << GREEN_LED_2) | (1 << BLUE_LED_2) ;0x58
+0001a5 3010                      	cpi		r17, 0x00
+0001a6 f011                      	breq	LED_2_toggle_enable
+                                 
+0001a7 dfc1                      	rcall	LED_2_off
+                                 
+0001a8 c002                      	rjmp	LED_2_toggle_end
+                                 
+                                 	LED_2_toggle_enable:
+0001a9 2d1c                      		mov		r17, LED_2_cache
+0001aa d002                      		rcall	LED_2_select_cmd
+                                 
+                                 	LED_2_toggle_end:
+0001ab 911f                      		pop		r17
+                                 		
+0001ac 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Выбор команды для LED_2
+                                 ;	Команда - r17
+                                 ;========================================================
+                                 
+                                 LED_2_select_cmd:
+                                 
+0001ad 3018                      	cpi		r17, 0x08
+0001ae f161                      	breq	LED_2_select_cmd_toggle
+                                 
+0001af dfb9                      	rcall	LED_2_off
+                                 
+0001b0 3011                      	cpi		r17, 0x01
+0001b1 f069                      	breq	LED_2_select_cmd_red
+                                 
+0001b2 3012                      	cpi		r17, 0x02
+0001b3 f079                      	breq	LED_2_select_cmd_green
+                                 
+0001b4 3013                      	cpi		r17, 0x03
+0001b5 f089                      	breq	LED_2_select_cmd_blue
+                                 
+0001b6 3014                      	cpi		r17, 0x04
+0001b7 f099                      	breq	LED_2_select_cmd_yellow
+                                 
+0001b8 3015                      	cpi		r17, 0x05
+0001b9 f0a9                      	breq	LED_2_select_cmd_magenta
+                                 
+0001ba 3016                      	cpi		r17, 0x06
+0001bb f0b9                      	breq	LED_2_select_cmd_white_blue
+                                 
+0001bc 3017                      	cpi		r17, 0x07
+0001bd f0c9                      	breq	LED_2_select_cmd_white
+                                 
+0001be 9508                      	ret
+                                 
+                                 	LED_2_select_cmd_red:
+0001bf dfb0                      		rcall	LED_2_RED_on
+0001c0 e011                      		ldi		r17, 0x01
+0001c1 2ec1                      		mov		LED_2_cache, r17
+                                 
+0001c2 9508                      		ret
+                                 	
+                                 	LED_2_select_cmd_green:
+0001c3 dfaf                      		rcall	LED_2_GREEN_on
+0001c4 e012                      		ldi		r17, 0x02
+0001c5 2ec1                      		mov		LED_2_cache, r17
+                                 
+0001c6 9508                      		ret
+                                 
+                                 	LED_2_select_cmd_blue:
+0001c7 dfae                      		rcall	LED_2_BLUE_on
+0001c8 e013                      		ldi		r17, 0x03
+0001c9 2ec1                      		mov		LED_2_cache, r17
+                                 
+0001ca 9508                      		ret
+                                 
+                                 	LED_2_select_cmd_yellow:
+0001cb dfad                      		rcall	LED_2_YELLOW_on
+0001cc e014                      		ldi		r17, 0x04
+0001cd 2ec1                      		mov		LED_2_cache, r17
+                                 
+0001ce 9508                      		ret
+                                 
+                                 	LED_2_select_cmd_magenta:
+0001cf dfac                      		rcall	LED_2_MAGENTA_on
+0001d0 e015                      		ldi		r17, 0x05
+0001d1 2ec1                      		mov		LED_2_cache, r17
+                                 
+0001d2 9508                      		ret
+                                 
+                                 	LED_2_select_cmd_white_blue:
+0001d3 dfab                      		rcall	LED_2_WHITE_BLUE_on
+0001d4 e016                      		ldi		r17, 0x06
+0001d5 2ec1                      		mov		LED_2_cache, r17
+                                 
+0001d6 9508                      		ret
+                                 
+                                 	LED_2_select_cmd_white:
+0001d7 dfaa                      		rcall	LED_2_WHITE_on
+0001d8 e017                      		ldi		r17, 0x07
+0001d9 2ec1                      		mov		LED_2_cache, r17
+                                 
+0001da 9508                      		ret
+                                 
+                                 	LED_2_select_cmd_toggle:
+0001db dfc6                      		rcall	LED_2_toggle
+                                 
+0001dc 9508                      	ret
+                                 .include "led_3.asm"
+                                 
+                                 ;			Процедуры для LED RGB
+                                 ;========================================================
+                                 
+                                 LED_3_off:
+0001dd 9889                      	cbi		DDR_LED_3, RED_LED_3
+0001de 988b                      	cbi		DDR_LED_3, BLUE_LED_3
+0001df 988a                      	cbi		DDR_LED_3, GREEN_LED_3
+                                 
+0001e0 9a91                      	sbi		PORT_LED_3, RED_LED_3
+0001e1 9a93                      	sbi		PORT_LED_3, BLUE_LED_3
+0001e2 9a92                      	sbi		PORT_LED_3, GREEN_LED_3
+                                 
+                                 	;rcall	MCU_wait_10mks
+                                 
+0001e3 9508                      	ret
+                                 
+                                 LED_3_RED_on:
+0001e4 9a89                      	sbi		DDR_LED_3, RED_LED_3
+0001e5 9891                      	cbi		PORT_LED_3, RED_LED_3
+                                 
+0001e6 9508                      	ret
+                                 
+                                 LED_3_GREEN_on:
+0001e7 9a8a                      	sbi		DDR_LED_3, GREEN_LED_3
+0001e8 9892                      	cbi		PORT_LED_3, GREEN_LED_3
+                                 
+0001e9 9508                      	ret
+                                 
+                                 LED_3_BLUE_on:
+0001ea 9a8b                      	sbi		DDR_LED_3, BLUE_LED_3
+0001eb 9893                      	cbi		PORT_LED_3, BLUE_LED_3
+                                 
+0001ec 9508                      	ret
+                                 
+                                 LED_3_YELLOW_on:
+0001ed dff6                      	rcall	LED_3_RED_on
+0001ee dff8                      	rcall	LED_3_GREEN_on
+                                 
+0001ef 9508                      	ret
+                                 
+                                 LED_3_MAGENTA_on:
+0001f0 dff3                      	rcall	LED_3_RED_on
+0001f1 dff8                      	rcall	LED_3_BLUE_on
+                                 
+0001f2 9508                      	ret
+                                 
+                                 LED_3_WHITE_BLUE_on:
+0001f3 dff3                      	rcall	LED_3_GREEN_on
+0001f4 dff5                      	rcall	LED_3_BLUE_on
+                                 
+0001f5 9508                      	ret
+                                 
+                                 LED_3_WHITE_on:
+0001f6 dfed                      	rcall	LED_3_RED_on
+0001f7 dfef                      	rcall	LED_3_GREEN_on
+0001f8 dff1                      	rcall	LED_3_BLUE_on
+                                 
+0001f9 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;					Тест LED_3
+                                 ;========================================================
+                                 
+                                 LED_3_test:
+0001fa d016                      	rcall	LED_3_test_ext1
+0001fb dfe8                      	rcall	LED_3_RED_on
+0001fc d017                      	rcall	LED_3_test_ext2
+                                 
+0001fd d013                      	rcall	LED_3_test_ext1
+0001fe dfe8                      	rcall	LED_3_GREEN_on
+0001ff d014                      	rcall	LED_3_test_ext2
+                                 
+000200 d010                      	rcall	LED_3_test_ext1
+000201 dfe8                      	rcall	LED_3_BLUE_on
+000202 d011                      	rcall	LED_3_test_ext2
+                                 
+000203 d00d                      	rcall	LED_3_test_ext1
+000204 dfe8                      	rcall	LED_3_YELLOW_on
+000205 d00e                      	rcall	LED_3_test_ext2
+                                 
+000206 d00a                      	rcall	LED_3_test_ext1
+000207 dfe8                      	rcall	LED_3_MAGENTA_on
+000208 d00b                      	rcall	LED_3_test_ext2
+                                 
+000209 d007                      	rcall	LED_3_test_ext1
+00020a dfe8                      	rcall	LED_3_WHITE_BLUE_on
+00020b d008                      	rcall	LED_3_test_ext2
+                                 
+00020c d004                      	rcall	LED_3_test_ext1
+00020d dfe8                      	rcall	LED_3_WHITE_on
+00020e d005                      	rcall	LED_3_test_ext2
+                                 
+00020f dfcd                      	rcall	LED_3_off
+                                 
+000210 9508                      	ret
+                                 
+                                 LED_3_test_ext1:
+000211 dfcb                      	rcall	LED_3_off
+000212 de67                      	rcall	MCU_wait_1000ms
+                                 
+000213 9508                      	ret
+                                 
+                                 LED_3_test_ext2:
+000214 de65                      	rcall	MCU_wait_1000ms
+                                 
+000215 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Переключить LED_3 на противоположное состояние.
+                                 ;========================================================
+                                 
+                                 LED_3_toggle:
+000216 931f                      	push	r17
+                                 
+000217 b311                      	in		r17, DDR_LED_3
+000218 701e                      	andi	r17, (1 << RED_LED_3) | (1 << GREEN_LED_3) | (1 << BLUE_LED_3) ;0x58
+000219 3010                      	cpi		r17, 0x00
+00021a f011                      	breq	LED_3_toggle_enable
+                                 
+00021b dfc1                      	rcall	LED_3_off
+                                 
+00021c c002                      	rjmp	LED_3_toggle_end
+                                 
+                                 	LED_3_toggle_enable:
+00021d 2d1d                      		mov		r17, LED_3_cache
+00021e d002                      		rcall	LED_3_select_cmd
+                                 
+                                 	LED_3_toggle_end:
+00021f 911f                      		pop		r17
+                                 		
+000220 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Выбор команды для LED_3
+                                 ;	Команда - r17
+                                 ;========================================================
+                                 
+                                 LED_3_select_cmd:
+                                 
+000221 3018                      	cpi		r17, 0x08
+000222 f161                      	breq	LED_3_select_cmd_toggle
+                                 
+000223 dfb9                      	rcall	LED_3_off
+                                 
+000224 3011                      	cpi		r17, 0x01
+000225 f069                      	breq	LED_3_select_cmd_red
+                                 
+000226 3012                      	cpi		r17, 0x02
+000227 f079                      	breq	LED_3_select_cmd_green
+                                 
+000228 3013                      	cpi		r17, 0x03
+000229 f089                      	breq	LED_3_select_cmd_blue
+                                 
+00022a 3014                      	cpi		r17, 0x04
+00022b f099                      	breq	LED_3_select_cmd_yellow
+                                 
+00022c 3015                      	cpi		r17, 0x05
+00022d f0a9                      	breq	LED_3_select_cmd_magenta
+                                 
+00022e 3016                      	cpi		r17, 0x06
+00022f f0b9                      	breq	LED_3_select_cmd_white_blue
+                                 
+000230 3017                      	cpi		r17, 0x07
+000231 f0c9                      	breq	LED_3_select_cmd_white
+                                 
+000232 9508                      	ret
+                                 
+                                 	LED_3_select_cmd_red:
+000233 dfb0                      		rcall	LED_3_RED_on
+000234 e011                      		ldi		r17, 0x01
+000235 2ed1                      		mov		LED_3_cache, r17
+                                 
+000236 9508                      		ret
+                                 	
+                                 	LED_3_select_cmd_green:
+000237 dfaf                      		rcall	LED_3_GREEN_on
+000238 e012                      		ldi		r17, 0x02
+000239 2ed1                      		mov		LED_3_cache, r17
+                                 
+00023a 9508                      		ret
+                                 
+                                 	LED_3_select_cmd_blue:
+00023b dfae                      		rcall	LED_3_BLUE_on
+00023c e013                      		ldi		r17, 0x03
+00023d 2ed1                      		mov		LED_3_cache, r17
+                                 
+00023e 9508                      		ret
+                                 
+                                 	LED_3_select_cmd_yellow:
+00023f dfad                      		rcall	LED_3_YELLOW_on
+000240 e014                      		ldi		r17, 0x04
+000241 2ed1                      		mov		LED_3_cache, r17
+                                 
+000242 9508                      		ret
+                                 
+                                 	LED_3_select_cmd_magenta:
+000243 dfac                      		rcall	LED_3_MAGENTA_on
+000244 e015                      		ldi		r17, 0x05
+000245 2ed1                      		mov		LED_3_cache, r17
+                                 
+000246 9508                      		ret
+                                 
+                                 	LED_3_select_cmd_white_blue:
+000247 dfab                      		rcall	LED_3_WHITE_BLUE_on
+000248 e016                      		ldi		r17, 0x06
+000249 2ed1                      		mov		LED_3_cache, r17
+                                 
+00024a 9508                      		ret
+                                 
+                                 	LED_3_select_cmd_white:
+00024b dfaa                      		rcall	LED_3_WHITE_on
+00024c e017                      		ldi		r17, 0x07
+00024d 2ed1                      		mov		LED_3_cache, r17
+                                 
+00024e 9508                      		ret
+                                 
+                                 	LED_3_select_cmd_toggle:
+00024f dfc6                      		rcall	LED_3_toggle
+                                 
+000250 9508                      	ret
+                                 .include "led_4.asm"
+                                 
+                                 ;			Процедуры для LED RGB
+                                 ;========================================================
+                                 
+                                 LED_4_off:
+000251 98d0                      	cbi		DDR_LED_4RG, RED_LED_4
+000252 9888                      	cbi		DDR_LED_4B, BLUE_LED_4
+000253 98d1                      	cbi		DDR_LED_4RG, GREEN_LED_4
+                                 
+000254 9ad8                      	sbi		PORT_LED_4RG, RED_LED_4
+000255 9a90                      	sbi		PORT_LED_4B, BLUE_LED_4
+000256 9ad9                      	sbi		PORT_LED_4RG, GREEN_LED_4
+                                 
+                                 	;rcall	MCU_wait_10mks
+                                 
+000257 9508                      	ret
+                                 
+                                 LED_4_RED_on:
+000258 9ad0                      	sbi		DDR_LED_4RG, RED_LED_4
+000259 98d8                      	cbi		PORT_LED_4RG, RED_LED_4
+                                 
+00025a 9508                      	ret
+                                 
+                                 LED_4_GREEN_on:
+00025b 9ad1                      	sbi		DDR_LED_4RG, GREEN_LED_4
+00025c 98d9                      	cbi		PORT_LED_4RG, GREEN_LED_4
+                                 
+00025d 9508                      	ret
+                                 
+                                 LED_4_BLUE_on:
+00025e 9a88                      	sbi		DDR_LED_4B, BLUE_LED_4
+00025f 9890                      	cbi		PORT_LED_4B, BLUE_LED_4
+                                 
+000260 9508                      	ret
+                                 
+                                 LED_4_YELLOW_on:
+000261 dff6                      	rcall	LED_4_RED_on
+000262 dff8                      	rcall	LED_4_GREEN_on
+                                 
+000263 9508                      	ret
+                                 
+                                 LED_4_MAGENTA_on:
+000264 dff3                      	rcall	LED_4_RED_on
+000265 dff8                      	rcall	LED_4_BLUE_on
+                                 
+000266 9508                      	ret
+                                 
+                                 LED_4_WHITE_BLUE_on:
+000267 dff3                      	rcall	LED_4_GREEN_on
+000268 dff5                      	rcall	LED_4_BLUE_on
+                                 
+000269 9508                      	ret
+                                 
+                                 LED_4_WHITE_on:
+00026a dfed                      	rcall	LED_4_RED_on
+00026b dfef                      	rcall	LED_4_GREEN_on
+00026c dff1                      	rcall	LED_4_BLUE_on
+                                 
+00026d 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;					Тест LED_4
+                                 ;========================================================
+                                 
+                                 LED_4_test:
+00026e d016                      	rcall	LED_4_test_ext1
+00026f dfe8                      	rcall	LED_4_RED_on
+000270 d017                      	rcall	LED_4_test_ext2
+                                 
+000271 d013                      	rcall	LED_4_test_ext1
+000272 dfe8                      	rcall	LED_4_GREEN_on
+000273 d014                      	rcall	LED_4_test_ext2
+                                 
+000274 d010                      	rcall	LED_4_test_ext1
+000275 dfe8                      	rcall	LED_4_BLUE_on
+000276 d011                      	rcall	LED_4_test_ext2
+                                 
+000277 d00d                      	rcall	LED_4_test_ext1
+000278 dfe8                      	rcall	LED_4_YELLOW_on
+000279 d00e                      	rcall	LED_4_test_ext2
+                                 
+00027a d00a                      	rcall	LED_4_test_ext1
+00027b dfe8                      	rcall	LED_4_MAGENTA_on
+00027c d00b                      	rcall	LED_4_test_ext2
+                                 
+00027d d007                      	rcall	LED_4_test_ext1
+00027e dfe8                      	rcall	LED_4_WHITE_BLUE_on
+00027f d008                      	rcall	LED_4_test_ext2
+                                 
+000280 d004                      	rcall	LED_4_test_ext1
+000281 dfe8                      	rcall	LED_4_WHITE_on
+000282 d005                      	rcall	LED_4_test_ext2
+                                 
+000283 dfcd                      	rcall	LED_4_off
+                                 
+000284 9508                      	ret
+                                 
+                                 LED_4_test_ext1:
+000285 dfcb                      	rcall	LED_4_off
+000286 ddf3                      	rcall	MCU_wait_1000ms
+                                 
+000287 9508                      	ret
+                                 
+                                 LED_4_test_ext2:
+000288 ddf1                      	rcall	MCU_wait_1000ms
+                                 
+000289 9508                      	ret
+                                 
+                                 ;========================================================
+                                 ;	Переключить LED_4 на противоположное состояние.
+                                 ;	
+                                 ;========================================================
+                                 
+                                 LED_4_toggle:
+00028a 931f                      	push	r17
+00028b 930f                      	push	r16
+                                 
+00028c b31a                      	in		r17, DDR_LED_4RG
+00028d 7013                      	andi	r17, (1 << RED_LED_4) | (1 << GREEN_LED_4)
+00028e b301                      	in		r16, DDR_LED_4B
+00028f 7001                      	andi	r16, (1 << BLUE_LED_4)
+                                 
+000290 0f10                      	add		r17, r16
+                                 
+000291 3010                      	cpi		r17, 0x00
+000292 f011                      	breq	LED_4_toggle_enable
+                                 
+000293 dfbd                      	rcall	LED_4_off
+                                 
+000294 c002                      	rjmp	LED_4_toggle_end
+                                 
+                                 	LED_4_toggle_enable:
+000295 2d1e                      		mov		r17, LED_4_cache
+000296 d003                      		rcall	LED_4_select_cmd
+                                 
+                                 	LED_4_toggle_end:
+000297 910f                      		pop		r16
+000298 911f                      		pop		r17
+                                 		
+000299 9508                      	ret
+                                 	
+                                 ;========================================================
+                                 ;	Выбор команды для LED_4
+                                 ;	Команда - r17
+                                 ;========================================================
+                                 LED_4_select_cmd:
+00029a 3018                      	cpi		r17, 0x08
+00029b f161                      	breq	LED_4_select_cmd_toggle
+                                 
+00029c dfb4                      	rcall	LED_4_off
+                                 
+00029d 3011                      	cpi		r17, 0x01
+00029e f069                      	breq	LED_4_select_cmd_red
+                                 
+00029f 3012                      	cpi		r17, 0x02
+0002a0 f079                      	breq	LED_4_select_cmd_green
+                                 
+0002a1 3013                      	cpi		r17, 0x03
+0002a2 f089                      	breq	LED_4_select_cmd_blue
+                                 
+0002a3 3014                      	cpi		r17, 0x04
+0002a4 f099                      	breq	LED_4_select_cmd_yellow
+                                 
+0002a5 3015                      	cpi		r17, 0x05
+0002a6 f0a9                      	breq	LED_4_select_cmd_magenta
+                                 
+0002a7 3016                      	cpi		r17, 0x06
+0002a8 f0b9                      	breq	LED_4_select_cmd_white_blue
+                                 
+0002a9 3017                      	cpi		r17, 0x07
+0002aa f0c9                      	breq	LED_4_select_cmd_white
+                                 
+0002ab 9508                      	ret
+                                 
+                                 	LED_4_select_cmd_red:
+0002ac dfab                      		rcall	LED_4_RED_on
+0002ad e011                      		ldi		r17, 0x01
+0002ae 2ee1                      		mov		LED_4_cache, r17
+                                 
+0002af 9508                      		ret
+                                 	
+                                 	LED_4_select_cmd_green:
+0002b0 dfaa                      		rcall	LED_4_GREEN_on
+0002b1 e012                      		ldi		r17, 0x02
+0002b2 2ee1                      		mov		LED_4_cache, r17
+                                 
+0002b3 9508                      		ret
+                                 
+                                 	LED_4_select_cmd_blue:
+0002b4 dfa9                      		rcall	LED_4_BLUE_on
+0002b5 e013                      		ldi		r17, 0x03
+0002b6 2ee1                      		mov		LED_4_cache, r17
+                                 
+0002b7 9508                      		ret
+                                 
+                                 	LED_4_select_cmd_yellow:
+0002b8 dfa8                      		rcall	LED_4_YELLOW_on
+0002b9 e014                      		ldi		r17, 0x04
+0002ba 2ee1                      		mov		LED_4_cache, r17
+                                 
+0002bb 9508                      		ret
+                                 
+                                 	LED_4_select_cmd_magenta:
+0002bc dfa7                      		rcall	LED_4_MAGENTA_on
+0002bd e015                      		ldi		r17, 0x05
+0002be 2ee1                      		mov		LED_4_cache, r17
+                                 
+0002bf 9508                      		ret
+                                 
+                                 	LED_4_select_cmd_white_blue:
+0002c0 dfa6                      		rcall	LED_4_WHITE_BLUE_on
+0002c1 e016                      		ldi		r17, 0x06
+0002c2 2ee1                      		mov		LED_4_cache, r17
+                                 
+0002c3 9508                      		ret
+                                 
+                                 	LED_4_select_cmd_white:
+0002c4 dfa5                      		rcall	LED_4_WHITE_on
+0002c5 e017                      		ldi		r17, 0x07
+0002c6 2ee1                      		mov		LED_4_cache, r17
+                                 
+0002c7 9508                      		ret
+                                 
+                                 	LED_4_select_cmd_toggle:
+0002c8 dfc1                      		rcall	LED_4_toggle
+                                 
+0002c9 9508                      	ret
+
+
+RESOURCE USE INFORMATION
+------------------------
+
+Notice:
+The register and instruction counts are symbol table hit counts,
+and hence implicitly used resources are not counted, eg, the
+'lpm' instruction without operands implicitly uses r0 and z,
+none of which are counted.
+
+x,y,z are separate entities in the symbol table and are
+counted separately from r26..r31 here.
+
+.dseg memory usage only counts static data declared with .byte
+
+"ATtiny2313A" register use summary:
+x  :   0 y  :   0 z  :   0 r0 :   3 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
+r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   8 r11:   8 r12:   8 
+r13:   8 r14:   8 r15:   0 r16:  10 r17: 181 r18:   0 r19:   0 r20:   2 
+r21:   6 r22:   6 r23:   6 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
+r29:   0 r30:   0 r31:   0 
+Registers used: 12 out of 35 (34.3%)
+
+"ATtiny2313A" instruction use summary:
+.lds  :   0 .sts  :   0 adc   :   0 add   :   1 adiw  :   0 and   :   0 
+andi  :   6 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
+brcc  :   0 brcs  :   0 break :   0 breq  :  50 brge  :   0 brhc  :   0 
+brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
+brne  :   3 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
+brvs  :   0 bset  :   0 bst   :   0 cbi   :  33 cbr   :   0 clc   :   0 
+clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 clt   :   0 
+clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 cpi   :  51 
+cpse  :   0 dec   :   2 eor   :   0 icall :   0 ijmp  :   0 in    :   7 
+inc   :   0 ld    :   0 ldd   :   0 ldi   :  47 lds   :   0 lpm   :   0 
+lsl   :   0 lsr   :   0 mov   :  48 movw  :   0 neg   :   0 nop   :   3 
+or    :   0 ori   :   0 out   :  17 pop   :  12 push  :  11 rcall : 244 
+ret   : 110 reti  :  20 rjmp  :  14 rol   :   0 ror   :   0 sbc   :   0 
+sbci  :   0 sbi   :  30 sbic  :   0 sbis  :   1 sbiw  :   0 sbr   :   0 
+sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 sei   :   1 sen   :   0 
+ser   :   3 ses   :   0 set   :   0 sev   :   0 sez   :   0 sleep :   0 
+spm   :   0 st    :   0 std   :   0 sts   :   0 sub   :   0 subi  :   0 
+swap  :   0 tst   :   0 wdr   :   0 
+Instructions used: 22 out of 105 (21.0%)
+
+"ATtiny2313A" memory use summary [bytes]:
+Segment   Begin    End      Code   Data   Used    Size   Use%
+---------------------------------------------------------------
+[.cseg] 0x000000 0x000594   1428      0   1428    2048  69.7%
+[.dseg] 0x000060 0x000060      0      0      0     128   0.0%
+[.eseg] 0x000000 0x000000      0      0      0     128   0.0%
+
+Assembly complete, 0 errors, 0 warnings

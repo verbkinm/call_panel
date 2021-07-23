@@ -1,0 +1,54 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc\tn2313adef.inc</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\config.inc</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\vars.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\interrupts_vector.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\initialization.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\interrupts.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\lib.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\uart.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\Debug\attiny2313_twi_master.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>attiny2313_twi_master.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>attiny2313_twi_master.map</FILE>
+  <FILE>attiny2313_twi_master.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <USART_data><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\vars.asm</FILE><LINE>31</LINE></USART_data>
+  <start><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\main.asm</FILE><LINE>21</LINE></start>
+  <init><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\initialization.asm</FILE><LINE>5</LINE></init>
+  <_UART_RX><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\interrupts.asm</FILE><LINE>5</LINE></_UART_RX>
+  <twi_write_one_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>152</LINE></twi_write_one_byte>
+  <twi_stop><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>29</LINE></twi_stop>
+  <main><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\main.asm</FILE><LINE>34</LINE></main>
+  <_UART_RX_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\interrupts.asm</FILE><LINE>15</LINE></_UART_RX_end>
+  <MCU_wait_10mks><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\lib.asm</FILE><LINE>5</LINE></MCU_wait_10mks>
+  <twi_start><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>4</LINE></twi_start>
+  <twi_master_transfer><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>48</LINE></twi_master_transfer>
+  <loop_send><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>53</LINE></loop_send>
+  <twi_send_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>74</LINE></twi_send_byte>
+  <twi_set_status_bit><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>132</LINE></twi_set_status_bit>
+  <twi_recive_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>97</LINE></twi_recive_byte>
+  <twi_recive_ack><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>113</LINE></twi_recive_ack>
+  <twi_recive_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>117</LINE></twi_recive_end>
+  <twi_set_status_bit_ack><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>140</LINE></twi_set_status_bit_ack>
+  <twi_write_one_byte_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\twi_mp.asm</FILE><LINE>172</LINE></twi_write_one_byte_end>
+  <USART_Transmit><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_master\attiny2313_twi_master\uart.asm</FILE><LINE>4</LINE></USART_Transmit>
+ </LABELS>
+</ASSEMBLER_INFO>

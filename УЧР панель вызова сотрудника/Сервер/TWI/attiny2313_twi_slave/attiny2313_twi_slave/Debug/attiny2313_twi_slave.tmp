@@ -1,0 +1,172 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc\tn2313adef.inc</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\config.inc</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\vars.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts_vector.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\initialization.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\lib.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\twi_mp.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\delay.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\Debug\attiny2313_twi_slave.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>attiny2313_twi_slave.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>attiny2313_twi_slave.map</FILE>
+  <FILE>attiny2313_twi_slave.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\main.asm</FILE><LINE>22</LINE></start>
+  <init><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\initialization.asm</FILE><LINE>5</LINE></init>
+  <_TWI_start><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts.asm</FILE><LINE>5</LINE></_TWI_start>
+  <twi_recive_byte><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\twi_mp.asm</FILE><LINE>28</LINE></twi_recive_byte>
+  <MCU_wait_10mks><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\delay.asm</FILE><LINE>10</LINE></MCU_wait_10mks>
+  <_TWI_start_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts.asm</FILE><LINE>70</LINE></_TWI_start_end>
+  <LED_0_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts.asm</FILE><LINE>42</LINE></LED_0_cmd>
+  <LED_1_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts.asm</FILE><LINE>48</LINE></LED_1_cmd>
+  <LED_2_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts.asm</FILE><LINE>54</LINE></LED_2_cmd>
+  <LED_3_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts.asm</FILE><LINE>60</LINE></LED_3_cmd>
+  <LED_4_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\interrupts.asm</FILE><LINE>66</LINE></LED_4_cmd>
+  <LED_0_select_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>141</LINE></LED_0_select_cmd>
+  <LED_1_select_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>139</LINE></LED_1_select_cmd>
+  <LED_2_select_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>139</LINE></LED_2_select_cmd>
+  <LED_3_select_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>139</LINE></LED_3_select_cmd>
+  <LED_4_select_cmd><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>146</LINE></LED_4_select_cmd>
+  <main><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\main.asm</FILE><LINE>38</LINE></main>
+  <twi_transfer><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\twi_mp.asm</FILE><LINE>6</LINE></twi_transfer>
+  <loop_send><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\twi_mp.asm</FILE><LINE>11</LINE></loop_send>
+  <MCU_wait_200ms><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\delay.asm</FILE><LINE>22</LINE></MCU_wait_200ms>
+  <MCU_wait_200ms_loop_L><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\delay.asm</FILE><LINE>29</LINE></MCU_wait_200ms_loop_L>
+  <MCU_wait_200ms_loop_H><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\delay.asm</FILE><LINE>34</LINE></MCU_wait_200ms_loop_H>
+  <MCU_wait_1000ms><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\delay.asm</FILE><LINE>48</LINE></MCU_wait_1000ms>
+  <LED_0_off><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>5</LINE></LED_0_off>
+  <LED_0_RED_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>18</LINE></LED_0_RED_on>
+  <LED_0_GREEN_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>24</LINE></LED_0_GREEN_on>
+  <LED_0_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>30</LINE></LED_0_BLUE_on>
+  <LED_0_YELLOW_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>36</LINE></LED_0_YELLOW_on>
+  <LED_0_MAGENTA_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>42</LINE></LED_0_MAGENTA_on>
+  <LED_0_WHITE_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>48</LINE></LED_0_WHITE_BLUE_on>
+  <LED_0_WHITE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>56</LINE></LED_0_WHITE_on>
+  <LED_0_test><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>67</LINE></LED_0_test>
+  <LED_0_test_ext1><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>100</LINE></LED_0_test_ext1>
+  <LED_0_test_ext2><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>106</LINE></LED_0_test_ext2>
+  <LED_0_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>115</LINE></LED_0_toggle>
+  <LED_0_toggle_enable><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>127</LINE></LED_0_toggle_enable>
+  <LED_0_toggle_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>131</LINE></LED_0_toggle_end>
+  <LED_0_select_cmd_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>220</LINE></LED_0_select_cmd_toggle>
+  <LED_0_select_cmd_red><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>171</LINE></LED_0_select_cmd_red>
+  <LED_0_select_cmd_green><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>178</LINE></LED_0_select_cmd_green>
+  <LED_0_select_cmd_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>185</LINE></LED_0_select_cmd_blue>
+  <LED_0_select_cmd_yellow><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>192</LINE></LED_0_select_cmd_yellow>
+  <LED_0_select_cmd_magenta><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>199</LINE></LED_0_select_cmd_magenta>
+  <LED_0_select_cmd_white_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>206</LINE></LED_0_select_cmd_white_blue>
+  <LED_0_select_cmd_white><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_0.asm</FILE><LINE>213</LINE></LED_0_select_cmd_white>
+  <LED_1_off><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>5</LINE></LED_1_off>
+  <LED_1_RED_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>18</LINE></LED_1_RED_on>
+  <LED_1_GREEN_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>24</LINE></LED_1_GREEN_on>
+  <LED_1_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>30</LINE></LED_1_BLUE_on>
+  <LED_1_YELLOW_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>36</LINE></LED_1_YELLOW_on>
+  <LED_1_MAGENTA_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>42</LINE></LED_1_MAGENTA_on>
+  <LED_1_WHITE_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>48</LINE></LED_1_WHITE_BLUE_on>
+  <LED_1_WHITE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>54</LINE></LED_1_WHITE_on>
+  <LED_1_test><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>65</LINE></LED_1_test>
+  <LED_1_test_ext1><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>98</LINE></LED_1_test_ext1>
+  <LED_1_test_ext2><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>104</LINE></LED_1_test_ext2>
+  <LED_1_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>113</LINE></LED_1_toggle>
+  <LED_1_toggle_enable><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>125</LINE></LED_1_toggle_enable>
+  <LED_1_toggle_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>129</LINE></LED_1_toggle_end>
+  <LED_1_select_cmd_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>218</LINE></LED_1_select_cmd_toggle>
+  <LED_1_select_cmd_red><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>169</LINE></LED_1_select_cmd_red>
+  <LED_1_select_cmd_green><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>176</LINE></LED_1_select_cmd_green>
+  <LED_1_select_cmd_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>183</LINE></LED_1_select_cmd_blue>
+  <LED_1_select_cmd_yellow><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>190</LINE></LED_1_select_cmd_yellow>
+  <LED_1_select_cmd_magenta><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>197</LINE></LED_1_select_cmd_magenta>
+  <LED_1_select_cmd_white_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>204</LINE></LED_1_select_cmd_white_blue>
+  <LED_1_select_cmd_white><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_1.asm</FILE><LINE>211</LINE></LED_1_select_cmd_white>
+  <LED_2_off><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>5</LINE></LED_2_off>
+  <LED_2_RED_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>18</LINE></LED_2_RED_on>
+  <LED_2_GREEN_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>24</LINE></LED_2_GREEN_on>
+  <LED_2_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>30</LINE></LED_2_BLUE_on>
+  <LED_2_YELLOW_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>36</LINE></LED_2_YELLOW_on>
+  <LED_2_MAGENTA_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>42</LINE></LED_2_MAGENTA_on>
+  <LED_2_WHITE_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>48</LINE></LED_2_WHITE_BLUE_on>
+  <LED_2_WHITE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>54</LINE></LED_2_WHITE_on>
+  <LED_2_test><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>65</LINE></LED_2_test>
+  <LED_2_test_ext1><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>98</LINE></LED_2_test_ext1>
+  <LED_2_test_ext2><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>104</LINE></LED_2_test_ext2>
+  <LED_2_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>113</LINE></LED_2_toggle>
+  <LED_2_toggle_enable><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>125</LINE></LED_2_toggle_enable>
+  <LED_2_toggle_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>129</LINE></LED_2_toggle_end>
+  <LED_2_select_cmd_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>218</LINE></LED_2_select_cmd_toggle>
+  <LED_2_select_cmd_red><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>169</LINE></LED_2_select_cmd_red>
+  <LED_2_select_cmd_green><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>176</LINE></LED_2_select_cmd_green>
+  <LED_2_select_cmd_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>183</LINE></LED_2_select_cmd_blue>
+  <LED_2_select_cmd_yellow><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>190</LINE></LED_2_select_cmd_yellow>
+  <LED_2_select_cmd_magenta><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>197</LINE></LED_2_select_cmd_magenta>
+  <LED_2_select_cmd_white_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>204</LINE></LED_2_select_cmd_white_blue>
+  <LED_2_select_cmd_white><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_2.asm</FILE><LINE>211</LINE></LED_2_select_cmd_white>
+  <LED_3_off><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>5</LINE></LED_3_off>
+  <LED_3_RED_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>18</LINE></LED_3_RED_on>
+  <LED_3_GREEN_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>24</LINE></LED_3_GREEN_on>
+  <LED_3_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>30</LINE></LED_3_BLUE_on>
+  <LED_3_YELLOW_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>36</LINE></LED_3_YELLOW_on>
+  <LED_3_MAGENTA_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>42</LINE></LED_3_MAGENTA_on>
+  <LED_3_WHITE_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>48</LINE></LED_3_WHITE_BLUE_on>
+  <LED_3_WHITE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>54</LINE></LED_3_WHITE_on>
+  <LED_3_test><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>65</LINE></LED_3_test>
+  <LED_3_test_ext1><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>98</LINE></LED_3_test_ext1>
+  <LED_3_test_ext2><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>104</LINE></LED_3_test_ext2>
+  <LED_3_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>113</LINE></LED_3_toggle>
+  <LED_3_toggle_enable><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>125</LINE></LED_3_toggle_enable>
+  <LED_3_toggle_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>129</LINE></LED_3_toggle_end>
+  <LED_3_select_cmd_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>218</LINE></LED_3_select_cmd_toggle>
+  <LED_3_select_cmd_red><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>169</LINE></LED_3_select_cmd_red>
+  <LED_3_select_cmd_green><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>176</LINE></LED_3_select_cmd_green>
+  <LED_3_select_cmd_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>183</LINE></LED_3_select_cmd_blue>
+  <LED_3_select_cmd_yellow><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>190</LINE></LED_3_select_cmd_yellow>
+  <LED_3_select_cmd_magenta><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>197</LINE></LED_3_select_cmd_magenta>
+  <LED_3_select_cmd_white_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>204</LINE></LED_3_select_cmd_white_blue>
+  <LED_3_select_cmd_white><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_3.asm</FILE><LINE>211</LINE></LED_3_select_cmd_white>
+  <LED_4_off><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>5</LINE></LED_4_off>
+  <LED_4_RED_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>18</LINE></LED_4_RED_on>
+  <LED_4_GREEN_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>24</LINE></LED_4_GREEN_on>
+  <LED_4_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>30</LINE></LED_4_BLUE_on>
+  <LED_4_YELLOW_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>36</LINE></LED_4_YELLOW_on>
+  <LED_4_MAGENTA_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>42</LINE></LED_4_MAGENTA_on>
+  <LED_4_WHITE_BLUE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>48</LINE></LED_4_WHITE_BLUE_on>
+  <LED_4_WHITE_on><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>54</LINE></LED_4_WHITE_on>
+  <LED_4_test><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>65</LINE></LED_4_test>
+  <LED_4_test_ext1><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>98</LINE></LED_4_test_ext1>
+  <LED_4_test_ext2><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>104</LINE></LED_4_test_ext2>
+  <LED_4_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>114</LINE></LED_4_toggle>
+  <LED_4_toggle_enable><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>132</LINE></LED_4_toggle_enable>
+  <LED_4_toggle_end><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>136</LINE></LED_4_toggle_end>
+  <LED_4_select_cmd_toggle><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>224</LINE></LED_4_select_cmd_toggle>
+  <LED_4_select_cmd_red><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>175</LINE></LED_4_select_cmd_red>
+  <LED_4_select_cmd_green><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>182</LINE></LED_4_select_cmd_green>
+  <LED_4_select_cmd_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>189</LINE></LED_4_select_cmd_blue>
+  <LED_4_select_cmd_yellow><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>196</LINE></LED_4_select_cmd_yellow>
+  <LED_4_select_cmd_magenta><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>203</LINE></LED_4_select_cmd_magenta>
+  <LED_4_select_cmd_white_blue><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>210</LINE></LED_4_select_cmd_white_blue>
+  <LED_4_select_cmd_white><FILE>C:\Users\user\Documents\Atmel Studio\7.0\TWI\attiny2313_twi_slave\attiny2313_twi_slave\led_4.asm</FILE><LINE>217</LINE></LED_4_select_cmd_white>
+ </LABELS>
+</ASSEMBLER_INFO>

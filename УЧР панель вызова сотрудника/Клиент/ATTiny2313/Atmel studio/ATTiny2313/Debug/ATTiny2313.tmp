@@ -1,0 +1,98 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATtiny2313A"</DEVICE>
+ <WORKING_DIR>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.3.229\avrasm\inc\tn2313adef.inc</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\config.inc</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\vars.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts_vector.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\initialization.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\uart.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\delay.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\tim0.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\Debug\ATTiny2313.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ATTiny2313.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ATTiny2313.map</FILE>
+  <FILE>ATTiny2313.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\main.asm</FILE><LINE>22</LINE></start>
+  <init><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\initialization.asm</FILE><LINE>5</LINE></init>
+  <_INT0><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>5</LINE></_INT0>
+  <_TIM1_A><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>115</LINE></_TIM1_A>
+  <_UART_RX><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>57</LINE></_UART_RX>
+  <change_tim0_off><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\tim0.asm</FILE><LINE>5</LINE></change_tim0_off>
+  <clear_reg><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\initialization.asm</FILE><LINE>95</LINE></clear_reg>
+  <clear_reg_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\initialization.asm</FILE><LINE>100</LINE></clear_reg_end>
+  <LED_0_test><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>67</LINE></LED_0_test>
+  <main><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\main.asm</FILE><LINE>48</LINE></main>
+  <MCU_wait_200ms><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\delay.asm</FILE><LINE>22</LINE></MCU_wait_200ms>
+  <_INT0_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>49</LINE></_INT0_end>
+  <_INT0_send_query><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>30</LINE></_INT0_send_query>
+  <_INT0_send_cancel><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>37</LINE></_INT0_send_cancel>
+  <_INT0_send_response><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>44</LINE></_INT0_send_response>
+  <USART_send_package><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\uart.asm</FILE><LINE>18</LINE></USART_send_package>
+  <_UART_RX_wait_for_dst_addr_byte><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>78</LINE></_UART_RX_wait_for_dst_addr_byte>
+  <_UART_RX_wait_for_src_addr_byte><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>85</LINE></_UART_RX_wait_for_src_addr_byte>
+  <_UART_RX_clear_proto><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>104</LINE></_UART_RX_clear_proto>
+  <input_command><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE><LINE>5</LINE></input_command>
+  <_UART_RX_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>98</LINE></_UART_RX_end>
+  <counter_connection><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>6</LINE></counter_connection>
+  <counter_blink><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>29</LINE></counter_blink>
+  <counter_ping_send><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>55</LINE></counter_ping_send>
+  <LED_0_state_connection><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>144</LINE></LED_0_state_connection>
+  <LED_0_state_waiting_response><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>155</LINE></LED_0_state_waiting_response>
+  <LED_0_state_waiting_us><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>164</LINE></LED_0_state_waiting_us>
+  <LED_0_state_received_response><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>174</LINE></LED_0_state_received_response>
+  <LED_0_MAGENTA_on><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>44</LINE></LED_0_MAGENTA_on>
+  <LED_0_toggle><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>117</LINE></LED_0_toggle>
+  <LED_0_state_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\interrupts.asm</FILE><LINE>179</LINE></LED_0_state_end>
+  <LED_0_off><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>5</LINE></LED_0_off>
+  <LED_0_GREEN_on><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>26</LINE></LED_0_GREEN_on>
+  <LED_0_RED_on><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>20</LINE></LED_0_RED_on>
+  <LED_0_BLUE_on><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>32</LINE></LED_0_BLUE_on>
+  <change_tim0_to_buzzer_mode><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\tim0.asm</FILE><LINE>16</LINE></change_tim0_to_buzzer_mode>
+  <LED_0_YELLOW_on><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>38</LINE></LED_0_YELLOW_on>
+  <input_command_ping><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE><LINE>29</LINE></input_command_ping>
+  <input_command_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE><LINE>69</LINE></input_command_end>
+  <input_command_query><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE><LINE>37</LINE></input_command_query>
+  <input_command_cancel_query><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE><LINE>54</LINE></input_command_cancel_query>
+  <input_command_response_to_request><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE><LINE>63</LINE></input_command_response_to_request>
+  <input_command_query_ok><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE><LINE>47</LINE></input_command_query_ok>
+  <input_command_error><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\command_and_state.asm</FILE><LINE>74</LINE></input_command_error>
+  <USART_Transmit><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\uart.asm</FILE><LINE>5</LINE></USART_Transmit>
+  <MCU_wait_10mks><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\delay.asm</FILE><LINE>10</LINE></MCU_wait_10mks>
+  <MCU_wait_200ms_loop_L><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\delay.asm</FILE><LINE>29</LINE></MCU_wait_200ms_loop_L>
+  <MCU_wait_200ms_loop_H><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\delay.asm</FILE><LINE>34</LINE></MCU_wait_200ms_loop_H>
+  <MCU_wait_1000ms><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\delay.asm</FILE><LINE>48</LINE></MCU_wait_1000ms>
+  <LED_0_WHITE_BLUE_on><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>50</LINE></LED_0_WHITE_BLUE_on>
+  <LED_0_WHITE_on><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>56</LINE></LED_0_WHITE_on>
+  <LED_0_test_ext1><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>100</LINE></LED_0_test_ext1>
+  <LED_0_test_ext2><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>106</LINE></LED_0_test_ext2>
+  <LED_0_toggle_enable><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>129</LINE></LED_0_toggle_enable>
+  <LED_0_toggle_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\led.asm</FILE><LINE>132</LINE></LED_0_toggle_end>
+  <counter_connection_clear><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>14</LINE></counter_connection_clear>
+  <counter_connection_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>19</LINE></counter_connection_end>
+  <counter_blink_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>45</LINE></counter_blink_end>
+  <counter_blink_clear><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>41</LINE></counter_blink_clear>
+  <counter_ping_send_clear><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>65</LINE></counter_ping_send_clear>
+  <counter_ping_send_end><FILE>C:\Qt\myProg\IOTV\IOTV\src\MK\ATTiny2313\Atmel studio\ATTiny2313\counter.asm</FILE><LINE>70</LINE></counter_ping_send_end>
+ </LABELS>
+</ASSEMBLER_INFO>
